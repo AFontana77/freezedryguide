@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 const reviewLinks = [
   { name: "Best Home Freeze Dryers", href: "/best-home-freeze-dryer" },

@@ -1,4 +1,4 @@
-﻿export function ArticleSchema({
+export function ArticleSchema({
   title,
   description,
   url,
