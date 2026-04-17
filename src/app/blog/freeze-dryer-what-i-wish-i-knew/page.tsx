@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
@@ -33,16 +33,16 @@ export default function FreezeDryerWishIKnewPage() {
       <ArticleSchema
         title="I Bought a $3,000 Freeze Dryer — Here's What I Wish I Knew First"
         description="Run times are 24-36 hours, not 8-12. Fatty foods are a problem. Pump oil needs changing. What first-year owners wish someone had told them."
-        url="https://www.freezedrylab.com/blog/freeze-dryer-what-i-wish-i-knew"
+        url="https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.freezedrylab.com" },
-          { name: "Blog", url: "https://www.freezedrylab.com/blog" },
-          { name: "What I Wish I Knew", url: "https://www.freezedrylab.com/blog/freeze-dryer-what-i-wish-i-knew" },
+          { name: "Home", url: "https://www.FreezeDryGuide.com" },
+          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
+          { name: "What I Wish I Knew", url: "https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew" },
         ]}
       />
 
@@ -65,7 +65,7 @@ export default function FreezeDryerWishIKnewPage() {
           I Bought a $3,000 Freeze Dryer — Here&apos;s What I Wish I Knew First
         </h1>
 
-        <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Lab</p>
+        <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Guide</p>
 
         {/* Key Takeaways */}
         <div className="bg-primary/5 border border-primary/20 rounded-xl p-5 mb-8">

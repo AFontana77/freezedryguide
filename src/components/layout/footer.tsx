@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 const reviewLinks = [
   { name: "Best Home Freeze Dryers", href: "/best-home-freeze-dryer" },
@@ -37,7 +37,7 @@ export function Footer() {
                 </svg>
               </div>
               <span className="font-heading text-base font-bold">
-                Freeze Dry Lab
+                Freeze Dry Guide
               </span>
             </Link>
             <p className="mt-2 text-xs text-primary font-medium italic">
@@ -104,7 +104,7 @@ export function Footer() {
               <p className="mt-1 text-xs text-muted-foreground leading-relaxed">
                 Also visit HomesteadingGear.com for chicken coops, pressure
                 canners, solar generators, and all your homestead equipment.
-                Freeze Dry Lab is part of the HomesteadingGear family of sites.
+                Freeze Dry Guide is part of the HomesteadingGear family of sites.
               </p>
             </div>
           </div>
@@ -113,10 +113,10 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-muted-foreground">
-            &copy; {currentYear} Freeze Dry Lab. All rights reserved.
+            &copy; {currentYear} Freeze Dry Guide. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground text-center sm:text-right max-w-md">
-            FreezeDryLab.com is reader-supported. When you buy through links on
+            FreezeDryGuide.com is reader-supported. When you buy through links on
             our site, we may earn an affiliate commission at no extra cost to
             you.{" "}
             <Link href="/about#affiliate-disclosure" className="underline">

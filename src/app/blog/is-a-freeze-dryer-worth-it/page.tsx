@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
@@ -33,16 +33,16 @@ export default function IsFreezeDryerWorthItPage() {
       <ArticleSchema
         title="Is a Home Freeze Dryer Actually Worth It? The Math for 4 Family Sizes"
         description="Break-even analysis for one person, couples, families of 4, and 6+. Real cost per freeze-dried serving versus buying commercial. When the numbers work."
-        url="https://www.freezedrylab.com/blog/is-a-freeze-dryer-worth-it"
+        url="https://www.FreezeDryGuide.com/blog/is-a-freeze-dryer-worth-it"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.freezedrylab.com" },
-          { name: "Blog", url: "https://www.freezedrylab.com/blog" },
-          { name: "Is a Freeze Dryer Worth It?", url: "https://www.freezedrylab.com/blog/is-a-freeze-dryer-worth-it" },
+          { name: "Home", url: "https://www.FreezeDryGuide.com" },
+          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
+          { name: "Is a Freeze Dryer Worth It?", url: "https://www.FreezeDryGuide.com/blog/is-a-freeze-dryer-worth-it" },
         ]}
       />
 
@@ -65,7 +65,7 @@ export default function IsFreezeDryerWorthItPage() {
           Is a Home Freeze Dryer Actually Worth It? The Math for 4 Family Sizes
         </h1>
 
-        <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Lab</p>
+        <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Guide</p>
 
         {/* Key Takeaways */}
         <div className="bg-primary/5 border border-primary/20 rounded-xl p-5 mb-8">

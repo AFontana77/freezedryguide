@@ -1,7 +1,7 @@
-// Centralized affiliate tag management for FreezeDryLab.com
+﻿// Centralized affiliate tag management for FreezeDryGuide.com
 // Swap ONE constant when affiliate accounts change
 
-export const AMAZON_TAG = "freezedrylab-20"; // update when approved
+export const AMAZON_TAG = "freezedryguide-20"; // update when approved
 
 export const AFFILIATE_PROGRAMS = {
   amazon: {

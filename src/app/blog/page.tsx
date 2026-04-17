@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -49,16 +49,16 @@ export default function BlogPage() {
   return (
     <>
       <ArticleSchema
-        title="Freeze Dry Lab Blog — Guides, Owner Tips, and Food Preservation"
+        title="Freeze Dry Guide Blog — Guides, Owner Tips, and Food Preservation"
         description="Real numbers on freeze drying: run times, electricity costs, which foods to freeze dry, and owner experiences."
-        url="https://www.freezedrylab.com/blog"
+        url="https://www.FreezeDryGuide.com/blog"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.freezedrylab.com" },
-          { name: "Blog", url: "https://www.freezedrylab.com/blog" },
+          { name: "Home", url: "https://www.FreezeDryGuide.com" },
+          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
         ]}
       />
 

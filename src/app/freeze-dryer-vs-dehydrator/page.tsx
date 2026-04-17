@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle, XCircle, ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
@@ -59,15 +59,15 @@ export default function FreezeDryerVsDehydratorPage() {
       <ArticleSchema
         title="Freeze Dryer vs Dehydrator: Which Should You Buy First?"
         description="The full comparison: shelf life, cost, nutrition retention, and which to buy first. Start with a dehydrator. Add a freeze dryer when you're ready."
-        url="https://www.freezedrylab.com/freeze-dryer-vs-dehydrator"
+        url="https://www.FreezeDryGuide.com/freeze-dryer-vs-dehydrator"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.freezedrylab.com" },
-          { name: "Freeze Dryer vs Dehydrator", url: "https://www.freezedrylab.com/freeze-dryer-vs-dehydrator" },
+          { name: "Home", url: "https://www.FreezeDryGuide.com" },
+          { name: "Freeze Dryer vs Dehydrator", url: "https://www.FreezeDryGuide.com/freeze-dryer-vs-dehydrator" },
         ]}
       />
 

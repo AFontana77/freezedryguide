@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
@@ -33,16 +33,16 @@ export default function HarvestRightElectricityCostPage() {
       <ArticleSchema
         title="How Much Electricity Does a Harvest Right Use? Real Numbers from Owners"
         description="Small model: 30-40 kWh per batch. Medium: 35-50 kWh. Annual cost at 2 batches per week. Real owner-reported data, not manufacturer estimates."
-        url="https://www.freezedrylab.com/blog/harvest-right-electricity-cost"
+        url="https://www.FreezeDryGuide.com/blog/harvest-right-electricity-cost"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.freezedrylab.com" },
-          { name: "Blog", url: "https://www.freezedrylab.com/blog" },
-          { name: "Harvest Right Electricity Cost", url: "https://www.freezedrylab.com/blog/harvest-right-electricity-cost" },
+          { name: "Home", url: "https://www.FreezeDryGuide.com" },
+          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
+          { name: "Harvest Right Electricity Cost", url: "https://www.FreezeDryGuide.com/blog/harvest-right-electricity-cost" },
         ]}
       />
 
@@ -65,7 +65,7 @@ export default function HarvestRightElectricityCostPage() {
           How Much Electricity Does a Harvest Right Use? Real Numbers from Owners
         </h1>
 
-        <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Lab</p>
+        <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Guide</p>
 
         {/* Key Takeaways */}
         <div className="bg-primary/5 border border-primary/20 rounded-xl p-5 mb-8">

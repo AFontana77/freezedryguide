@@ -1,27 +1,27 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 
 export const metadata: Metadata = {
-  title: "About Freeze Dry Lab",
+  title: "About Freeze Dry Guide",
   description:
-    "Freeze Dry Lab is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites.",
+    "Freeze Dry Guide is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites.",
 };
 
 export default function AboutPage() {
   return (
     <>
       <ArticleSchema
-        title="About Freeze Dry Lab"
-        description="Freeze Dry Lab is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites."
-        url="https://www.freezedrylab.com/about"
+        title="About Freeze Dry Guide"
+        description="Freeze Dry Guide is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites."
+        url="https://www.FreezeDryGuide.com/about"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.freezedrylab.com" },
-          { name: "About", url: "https://www.freezedrylab.com/about" },
+          { name: "Home", url: "https://www.FreezeDryGuide.com" },
+          { name: "About", url: "https://www.FreezeDryGuide.com/about" },
         ]}
       />
 
@@ -33,12 +33,12 @@ export default function AboutPage() {
         </nav>
 
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight mb-6">
-          About Freeze Dry Lab
+          About Freeze Dry Guide
         </h1>
 
         <div className="space-y-6 text-base text-foreground leading-relaxed">
           <p className="text-muted-foreground">
-            Freeze Dry Lab is an independent review and guide site for home freeze dryers.
+            Freeze Dry Guide is an independent review and guide site for home freeze dryers.
             We focus on one category — home freeze drying — and try to be the most useful
             resource on the internet for people researching a Harvest Right or considering
             their first freeze dryer.
@@ -62,7 +62,7 @@ export default function AboutPage() {
           <h2 className="font-heading text-xl font-bold text-foreground">Part of the HomesteadingGear Family</h2>
 
           <p className="text-muted-foreground">
-            Freeze Dry Lab is a sister site to{" "}
+            Freeze Dry Guide is a sister site to{" "}
             <a
               href="https://www.homesteadinggear.com"
               target="_blank"
@@ -84,7 +84,7 @@ export default function AboutPage() {
           <div id="affiliate-disclosure" className="bg-muted/40 border border-border rounded-xl p-5 mt-8">
             <h2 className="font-heading text-lg font-bold text-foreground mb-3">Affiliate Disclosure</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-              FreezeDryLab.com participates in affiliate programs including the Amazon Associates
+              FreezeDryGuide.com participates in affiliate programs including the Amazon Associates
               program and the Harvest Right affiliate program. When you click a link on this site
               and make a purchase, we may earn a small commission at no additional cost to you.
             </p>

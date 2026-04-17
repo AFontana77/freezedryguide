@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowRight, Snowflake, Wrench, Scale, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -74,9 +74,9 @@ export default function HomePage() {
   return (
     <>
       <ArticleSchema
-        title="Freeze Dry Lab — Independent Reviews for Home Freeze Dryers"
+        title="Freeze Dry Guide — Independent Reviews for Home Freeze Dryers"
         description="Honest reviews, buying guides, and owner tutorials for home freeze dryers. We compare every Harvest Right model, cover accessories, and explain what the manufacturers don't tell you."
-        url="https://www.freezedrylab.com"
+        url="https://www.FreezeDryGuide.com"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
@@ -224,7 +224,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-heading text-2xl font-bold text-foreground">
-            Why Trust Freeze Dry Lab?
+            Why Trust Freeze Dry Guide?
           </h2>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
             <div>
@@ -252,7 +252,7 @@ export default function HomePage() {
                 Sister Site: HomesteadingGear.com
               </p>
               <p className="text-muted-foreground">
-                FreezeDryLab is part of the HomesteadingGear family. See our
+                FreezeDryGuide is part of the HomesteadingGear family. See our
                 main site for chicken coops, pressure canners, solar generators,
                 and more.{" "}
                 <a
@@ -273,7 +273,7 @@ export default function HomePage() {
       <section className="border-t border-border bg-muted/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-xs text-muted-foreground text-center max-w-2xl mx-auto">
-            <strong>Affiliate Disclosure:</strong> FreezeDryLab.com is
+            <strong>Affiliate Disclosure:</strong> FreezeDryGuide.com is
             reader-supported. When you buy through links on our site, we may
             earn an affiliate commission at no extra cost to you. This helps us
             keep the lights on and the reviews honest.{" "}

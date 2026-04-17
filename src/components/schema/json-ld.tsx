@@ -1,4 +1,4 @@
-export function ArticleSchema({
+﻿export function ArticleSchema({
   title,
   description,
   url,
@@ -21,16 +21,16 @@ export function ArticleSchema({
     url,
     datePublished,
     dateModified,
-    image: image || "https://www.freezedrylab.com/og-image.jpg",
+    image: image || "https://www.FreezeDryGuide.com/og-image.jpg",
     author: {
       "@type": "Organization",
-      name: "Freeze Dry Lab",
-      url: "https://www.freezedrylab.com",
+      name: "Freeze Dry Guide",
+      url: "https://www.FreezeDryGuide.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "Freeze Dry Lab",
-      url: "https://www.freezedrylab.com",
+      name: "Freeze Dry Guide",
+      url: "https://www.FreezeDryGuide.com",
     },
   };
 
@@ -171,9 +171,9 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Freeze Dry Lab",
-    url: "https://www.freezedrylab.com",
-    logo: "https://www.freezedrylab.com/logo.png",
+    name: "Freeze Dry Guide",
+    url: "https://www.FreezeDryGuide.com",
+    logo: "https://www.FreezeDryGuide.com/logo.png",
     description:
       "Independent reviews and guides for home freeze drying. We cover every Harvest Right model, accessories, and what the manufacturers don't tell you.",
     sameAs: [],
@@ -191,8 +191,8 @@ export function WebSiteSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Freeze Dry Lab",
-    url: "https://www.freezedrylab.com",
+    name: "Freeze Dry Guide",
+    url: "https://www.FreezeDryGuide.com",
     description:
       "Independent reviews and guides for home freeze drying.",
   };

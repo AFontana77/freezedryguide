@@ -1,6 +1,6 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://www.freezedrylab.com";
+const BASE_URL = "https://www.FreezeDryGuide.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date().toISOString().split("T")[0];

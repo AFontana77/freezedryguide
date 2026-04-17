@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -39,7 +39,7 @@ export function Header() {
               </svg>
             </div>
             <span className="font-heading text-lg font-bold text-foreground group-hover:text-primary transition-colors">
-              Freeze Dry Lab
+              Freeze Dry Guide
             </span>
           </Link>
 

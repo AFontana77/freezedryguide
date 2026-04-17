@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy for FreezeDryLab.com",
+  description: "Privacy policy for FreezeDryGuide.com",
 };
 
 export default function PrivacyPage() {
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="font-heading text-lg font-bold text-foreground mb-3">Information We Collect</h2>
           <p className="text-muted-foreground">
-            FreezeDryLab.com does not collect personal information unless you voluntarily provide it
+            FreezeDryGuide.com does not collect personal information unless you voluntarily provide it
             (such as through a contact form or email signup). We use standard web analytics to understand
             traffic patterns — this data is aggregated and does not identify individual visitors.
           </p>
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="font-heading text-lg font-bold text-foreground mb-3">Affiliate Program Participation</h2>
           <p className="text-muted-foreground">
-            FreezeDryLab.com participates in the Amazon Associates program and other affiliate programs.
+            FreezeDryGuide.com participates in the Amazon Associates program and other affiliate programs.
             As an Amazon Associate, we earn from qualifying purchases. Affiliate relationships are
             disclosed on every applicable page.
           </p>

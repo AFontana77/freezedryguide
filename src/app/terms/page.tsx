@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Terms of service for FreezeDryLab.com",
+  description: "Terms of service for FreezeDryGuide.com",
 };
 
 export default function TermsPage() {
@@ -22,7 +22,7 @@ export default function TermsPage() {
         <section>
           <h2 className="font-heading text-lg font-bold text-foreground mb-3">Use of This Site</h2>
           <p className="text-muted-foreground">
-            FreezeDryLab.com provides information for general educational purposes. Content on
+            FreezeDryGuide.com provides information for general educational purposes. Content on
             this site — including product reviews, comparisons, and guides — reflects research
             and community data available at the time of publication. Prices, specifications,
             and availability change frequently; always verify current information with the retailer
@@ -56,7 +56,7 @@ export default function TermsPage() {
         <section>
           <h2 className="font-heading text-lg font-bold text-foreground mb-3">Limitation of Liability</h2>
           <p className="text-muted-foreground">
-            FreezeDryLab.com and its operators are not liable for any damages arising from the use
+            FreezeDryGuide.com and its operators are not liable for any damages arising from the use
             of information on this site, including purchasing decisions made based on our reviews.
             All purchasing decisions are the sole responsibility of the buyer.
           </p>
@@ -65,7 +65,7 @@ export default function TermsPage() {
         <section>
           <h2 className="font-heading text-lg font-bold text-foreground mb-3">Intellectual Property</h2>
           <p className="text-muted-foreground">
-            Content on this site is owned by FreezeDryLab.com unless otherwise noted. Do not
+            Content on this site is owned by FreezeDryGuide.com unless otherwise noted. Do not
             reproduce content without permission. Linking to our pages is welcome.
           </p>
         </section>
