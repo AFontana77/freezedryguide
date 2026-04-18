@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Best Freeze Dryer Accessories (2026): What to Buy Before Your First Batch",
   description:
     "The freeze dryer is just the machine. You need mylar bags, oxygen absorbers, and sealing tools before your first batch. Here's exactly what to buy.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/freeze-dryer-accessories" },
 };
 
 const faqItems = [

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "About Freeze Dry Guide",
   description:
     "Freeze Dry Guide is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/about" },
 };
 
 export default function AboutPage() {

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)",
   description:
     "Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy — plus five foods that ruin a batch. A practical guide for new freeze dryer owners.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/best-foods-to-freeze-dry" },
 };
 
 const bestFoods = [

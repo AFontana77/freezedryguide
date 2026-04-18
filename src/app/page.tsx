@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Snowflake, Wrench, Scale, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArticleSchema } from "@/components/schema/json-ld";
+
+export const metadata: Metadata = {
+  title: "FreezeDryGuide.com — Harvest Right Reviews, Guides & Comparisons",
+  description:
+    "The independent guide to home freeze drying. Compare every Harvest Right model, understand real electricity costs, and learn what to freeze dry first.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com" },
+};
 
 const categories = [
   {

@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of service for FreezeDryGuide.com",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/terms" },
 };
 
 export default function TermsPage() {

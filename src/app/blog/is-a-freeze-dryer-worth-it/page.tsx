@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Is a Home Freeze Dryer Actually Worth It? The Math for 4 Family Sizes",
   description:
     "Break-even analysis for one person, couples, families of 4, and 6+. Real cost per freeze-dried serving versus buying commercial. When the numbers work.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/is-a-freeze-dryer-worth-it" },
 };
 
 const faqItems = [

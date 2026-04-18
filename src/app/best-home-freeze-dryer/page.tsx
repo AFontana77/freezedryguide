@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Best Home Freeze Dryers (2026): Every Harvest Right Model Compared",
   description:
     "Compare every Harvest Right home freeze dryer — small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/best-home-freeze-dryer" },
 };
 
 const faqItems = [

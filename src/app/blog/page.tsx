@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Blog — Freeze Dryer Guides, Owner Tips, and Food Preservation",
   description:
     "Real numbers on freeze drying: run times, electricity costs, which foods to freeze dry, and owner experiences from the Harvest Right community.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/blog" },
 };
 
 const articles = [

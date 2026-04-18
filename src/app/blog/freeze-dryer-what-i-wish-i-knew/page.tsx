@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "I Bought a $3,000 Freeze Dryer — Here's What I Wish I Knew First",
   description:
     "Run times are 24-36 hours, not 8-12. Fatty foods are a problem. Pump oil needs changing. What first-year owners wish someone had told them.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew" },
 };
 
 const faqItems = [

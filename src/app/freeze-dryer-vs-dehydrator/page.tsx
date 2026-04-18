@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Freeze Dryer vs Dehydrator: Which Should You Buy First?",
   description:
     "The full comparison: shelf life, cost, nutrition retention, and which to buy first. Start with a dehydrator. Add a freeze dryer when you're ready. Here's the logic.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/freeze-dryer-vs-dehydrator" },
 };
 
 const freezeDryerBetter = [

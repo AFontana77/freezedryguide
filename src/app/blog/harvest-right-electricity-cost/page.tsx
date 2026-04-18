@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "How Much Electricity Does a Harvest Right Use? Real Numbers from Owners",
   description:
     "Small model: 30-40 kWh per batch. Medium: 35-50 kWh. Annual cost at 2 batches per week. Real owner-reported data, not manufacturer estimates.",
+  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/harvest-right-electricity-cost" },
 };
 
 const faqItems = [
