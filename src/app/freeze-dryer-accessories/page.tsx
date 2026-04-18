@@ -149,7 +149,7 @@ export default function FreezeDryerAccessoriesPage() {
                         </div>
                       </div>
 
-                      <div className="border-l-2 border-primary pl-4 mb-5">
+                      <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mb-5">
                         <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-1">Our Verdict</p>
                         <p className="text-sm text-foreground leading-relaxed">{product.verdict}</p>
                       </div>

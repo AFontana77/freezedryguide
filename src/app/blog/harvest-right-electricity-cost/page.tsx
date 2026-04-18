@@ -194,7 +194,7 @@ export default function HarvestRightElectricityCostPage() {
               "\"California here. Same batches as my Texas neighbor, but my bill jumped about $80-100/month. The rate makes a huge difference.\"",
               "\"Tracked 30 batches. Average was 42 kWh for the medium model. That tracks with the 35-50 kWh range I've seen quoted online.\"",
             ].map((quote, i) => (
-              <li key={i} className="bg-muted/30 rounded-lg p-3 text-sm text-muted-foreground italic border-l-2 border-primary/30 pl-4">
+              <li key={i} className="bg-muted/40 rounded-lg p-3 text-sm text-muted-foreground italic">
                 {quote}
               </li>
             ))}
