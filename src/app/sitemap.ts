@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/best-home-freeze-dryer`, priority: 0.9 },
     { url: `${BASE_URL}/freeze-dryer-accessories`, priority: 0.9 },
     { url: `${BASE_URL}/freeze-dryer-vs-dehydrator`, priority: 0.9 },
+    { url: `${BASE_URL}/harvest-right-freeze-dryer-review`, priority: 0.9 },
     { url: `${BASE_URL}/blog`, priority: 0.8 },
     { url: `${BASE_URL}/blog/freeze-dryer-what-i-wish-i-knew`, priority: 0.8 },
     { url: `${BASE_URL}/blog/is-a-freeze-dryer-worth-it`, priority: 0.8 },
