@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 
 export const metadata: Metadata = {
-  title: "I Bought a $3,000 Freeze Dryer — Here's What I Wish I Knew First",
+  title: "I Bought a $3,000 Freeze Dryer, Here's What I Wish I Knew First",
   description:
     "Run times are 24-36 hours, not 8-12. Fatty foods are a problem. Pump oil needs changing. What first-year owners wish someone had told them.",
   alternates: { canonical: "https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew" },
@@ -24,7 +24,7 @@ const faqItems = [
   {
     question: "How often do you change the pump oil?",
     answer:
-      "With a standard oil pump, plan to change the oil every 20-25 batches, or whenever it turns dark and cloudy. An oil-free pump eliminates this maintenance step — worth the upgrade if you run the machine frequently.",
+      "With a standard oil pump, plan to change the oil every 20-25 batches, or whenever it turns dark and cloudy. An oil-free pump eliminates this maintenance step, worth the upgrade if you run the machine frequently.",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function FreezeDryerWishIKnewPage() {
   return (
     <>
       <ArticleSchema
-        title="I Bought a $3,000 Freeze Dryer — Here's What I Wish I Knew First"
+        title="I Bought a $3,000 Freeze Dryer, Here's What I Wish I Knew First"
         description="Run times are 24-36 hours, not 8-12. Fatty foods are a problem. Pump oil needs changing. What first-year owners wish someone had told them."
         url="https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew"
         datePublished="2026-04-17"
@@ -63,7 +63,7 @@ export default function FreezeDryerWishIKnewPage() {
         </div>
 
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight mb-4">
-          I Bought a $3,000 Freeze Dryer — Here&apos;s What I Wish I Knew First
+          I Bought a $3,000 Freeze Dryer, Here&apos;s What I Wish I Knew First
         </h1>
 
         <p className="text-muted-foreground text-sm mb-8">April 17, 2026 · Freeze Dry Guide</p>
@@ -78,7 +78,7 @@ export default function FreezeDryerWishIKnewPage() {
             </li>
             <li className="flex items-start gap-2 text-sm text-foreground">
               <span className="text-primary font-bold mt-0.5">→</span>
-              High-fat foods won&apos;t freeze dry well — this rules out more than you&apos;d expect
+              High-fat foods won&apos;t freeze dry well, this rules out more than you&apos;d expect
             </li>
             <li className="flex items-start gap-2 text-sm text-foreground">
               <span className="text-primary font-bold mt-0.5">→</span>
@@ -108,7 +108,7 @@ export default function FreezeDryerWishIKnewPage() {
 
           <p>
             A batch of strawberries, which are high in water content, will run 36-40 hours.
-            A batch of cooked chicken and rice — a full meal — runs 32-38 hours. Crackers
+            A batch of cooked chicken and rice, a full meal, runs 32-38 hours. Crackers
             and dry snacks might finish in 18-22 hours. The machine doesn&apos;t lie to you;
             the marketing does.
           </p>
@@ -125,7 +125,7 @@ export default function FreezeDryerWishIKnewPage() {
 
           <p>
             Fatty foods don&apos;t freeze dry. Avocado turns rancid. Butter won&apos;t work.
-            Peanut butter is borderline. Fatty cuts of meat — bacon, heavily marbled steak —
+            Peanut butter is borderline. Fatty cuts of meat, bacon, heavily marbled steak —
             produce poor results because the fat doesn&apos;t sublimate the way water does.
           </p>
 
@@ -142,7 +142,7 @@ export default function FreezeDryerWishIKnewPage() {
 
           <p>
             If you bought the standard oil pump (not the upgraded oil-free option), you need
-            to change the pump oil every 20-25 batches. It&apos;s not hard — takes about
+            to change the pump oil every 20-25 batches. It&apos;s not hard, takes about
             15 minutes. But it&apos;s easy to forget, and dark oil affects vacuum quality,
             which affects your batch results.
           </p>
@@ -159,7 +159,7 @@ export default function FreezeDryerWishIKnewPage() {
 
           <p>
             When your freeze dryer ships, order mylar bags and oxygen absorbers at the same
-            time. You&apos;ll want to run your first batch right away — and you&apos;ll be
+            time. You&apos;ll want to run your first batch right away, and you&apos;ll be
             annoyed if you have beautifully freeze-dried food sitting in the machine with no
             bags to put it in.
           </p>
@@ -178,7 +178,7 @@ export default function FreezeDryerWishIKnewPage() {
             Running 2 batches per week on a medium freeze dryer adds roughly $40-80 per month
             to your electricity bill depending on your local rate and how many hours each batch
             runs. At the US average of $0.12/kWh, a 40-kWh batch costs about $4.80. Two batches
-            per week is around $40/month. Higher electricity rates — California, New York —
+            per week is around $40/month. Higher electricity rates, California, New York —
             push that toward $60-80.
           </p>
 
@@ -194,7 +194,7 @@ export default function FreezeDryerWishIKnewPage() {
 
           <p>
             Many owners run theirs in a garage, basement, or utility room for this reason.
-            It also generates heat — plan for ventilation if you&apos;re putting it in a
+            It also generates heat, plan for ventilation if you&apos;re putting it in a
             small enclosed space.
           </p>
 

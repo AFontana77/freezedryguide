@@ -111,7 +111,7 @@ export default function IsFreezeDryerWorthItPage() {
           </p>
 
           <p>
-            The gap is real — but you have to actually run the machine consistently to realize
+            The gap is real, but you have to actually run the machine consistently to realize
             it. A freeze dryer sitting in the garage for 6 months is a $3,500 paperweight.
           </p>
 
@@ -130,11 +130,11 @@ export default function IsFreezeDryerWorthItPage() {
                 verdict: "Worth it at 3+ batches/month",
                 color: "border-yellow-200 bg-yellow-50",
                 detail:
-                  "A couple that gardens, hunts, or buys in bulk can justify a freeze dryer. Run 3+ batches per month and the savings versus commercial freeze-dried food offset the machine cost in 3-4 years. Manageable — but the medium model is likely overkill. Consider the small.",
+                  "A couple that gardens, hunts, or buys in bulk can justify a freeze dryer. Run 3+ batches per month and the savings versus commercial freeze-dried food offset the machine cost in 3-4 years. Manageable, but the medium model is likely overkill. Consider the small.",
               },
               {
                 label: "Family of 4",
-                verdict: "Worth it — this is the sweet spot",
+                verdict: "Worth it, this is the sweet spot",
                 color: "border-green-200 bg-green-50",
                 detail:
                   "A family of four that runs 2+ batches per week breaks even in roughly 2-3 years. More importantly, the non-financial value is real: you can preserve your garden harvest, bulk meat purchases, and build a genuine food reserve. The Harvest Right Medium is the right model for this household size.",
@@ -144,7 +144,7 @@ export default function IsFreezeDryerWorthItPage() {
                 verdict: "Clearly worth it",
                 color: "border-green-200 bg-green-50",
                 detail:
-                  "Large families consume enough preserved food to run the machine constantly. The per-serving savings add up fast, and the payback period drops to 1-2 years. This is also the household where the Harvest Right Large makes sense — the extra capacity reduces cost per pound.",
+                  "Large families consume enough preserved food to run the machine constantly. The per-serving savings add up fast, and the payback period drops to 1-2 years. This is also the household where the Harvest Right Large makes sense, the extra capacity reduces cost per pound.",
               },
             ].map((scenario) => (
               <div key={scenario.label} className={`rounded-xl border p-5 ${scenario.color}`}>
@@ -171,7 +171,7 @@ export default function IsFreezeDryerWorthItPage() {
             A 20-pound garden zucchini harvest. A bulk chicken purchase at $1.50/lb from
             a local farm. Strawberries at peak season from a pick-your-own farm at $1/lb.
             These are situations where the freeze dryer saves money not by replacing commercial
-            food — but by capturing value that would otherwise rot.
+            food, but by capturing value that would otherwise rot.
           </p>
 
           <p>
@@ -214,7 +214,7 @@ export default function IsFreezeDryerWorthItPage() {
                 href="/best-home-freeze-dryer"
                 className="flex items-center gap-1 text-sm text-primary hover:underline"
               >
-                Small vs Medium vs Large — which fits your family?
+                Small vs Medium vs Large, which fits your family?
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
               <Link

@@ -6,7 +6,7 @@ import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/
 export const metadata: Metadata = {
   title: "The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)",
   description:
-    "Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy — plus five foods that ruin a batch. A practical guide for new freeze dryer owners.",
+    "Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy, plus five foods that ruin a batch. A practical guide for new freeze dryer owners.",
   alternates: { canonical: "https://www.FreezeDryGuide.com/blog/best-foods-to-freeze-dry" },
 };
 
@@ -51,12 +51,12 @@ const faqItems = [
   {
     question: "How do you plan a batch for maximum efficiency?",
     answer:
-      "Mix food types strategically — high-moisture foods take longer, so batching similar moisture-level foods together leads to more even cycle times. Pre-freezing food in your regular freezer before loading the freeze dryer also reduces total batch time by 2-4 hours.",
+      "Mix food types strategically, high-moisture foods take longer, so batching similar moisture-level foods together leads to more even cycle times. Pre-freezing food in your regular freezer before loading the freeze dryer also reduces total batch time by 2-4 hours.",
   },
   {
     question: "Can you freeze dry meals in advance for camping or backpacking?",
     answer:
-      "Absolutely — this is one of the best uses for a home freeze dryer. Cook your regular meals, freeze dry them, vacuum seal in mylar bags, and rehydrate on the trail with boiling water. The weight savings and nutrition retention beat commercial backpacking meals by a wide margin.",
+      "Absolutely, this is one of the best uses for a home freeze dryer. Cook your regular meals, freeze dry them, vacuum seal in mylar bags, and rehydrate on the trail with boiling water. The weight savings and nutrition retention beat commercial backpacking meals by a wide margin.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function BestFoodsToFreezeDryPage() {
     <>
       <ArticleSchema
         title="The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)"
-        description="Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy — plus five foods that ruin a batch. A practical guide for new freeze dryer owners."
+        description="Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy, plus five foods that ruin a batch. A practical guide for new freeze dryer owners."
         url="https://www.FreezeDryGuide.com/blog/best-foods-to-freeze-dry"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
@@ -110,7 +110,7 @@ export default function BestFoodsToFreezeDryPage() {
             </li>
             <li className="flex items-start gap-2 text-sm text-foreground">
               <span className="text-primary font-bold mt-0.5">→</span>
-              Avoid high-fat foods — they don&apos;t sublimate and go rancid fast
+              Avoid high-fat foods, they don&apos;t sublimate and go rancid fast
             </li>
             <li className="flex items-start gap-2 text-sm text-foreground">
               <span className="text-primary font-bold mt-0.5">→</span>
@@ -123,7 +123,7 @@ export default function BestFoodsToFreezeDryPage() {
 
           <p>
             One of the first questions new freeze dryer owners ask: what should I actually
-            freeze dry? The machine can handle a wide range of foods — but some produce
+            freeze dry? The machine can handle a wide range of foods, but some produce
             dramatically better results than others. And a handful will ruin your batch
             or produce food that doesn&apos;t justify the run time.
           </p>
@@ -160,7 +160,7 @@ export default function BestFoodsToFreezeDryPage() {
           </h2>
 
           <p>
-            These aren&apos;t just difficult — they produce poor results, waste a batch slot,
+            These aren&apos;t just difficult, they produce poor results, waste a batch slot,
             or create cleanup problems. Learn this list before your first run.
           </p>
 
@@ -194,7 +194,7 @@ export default function BestFoodsToFreezeDryPage() {
           </p>
 
           <p>
-            Candy — specifically Skittles, Taffy, and other sugar candies — has become
+            Candy, specifically Skittles, Taffy, and other sugar candies, has become
             popular in the freeze dry community. The results are genuinely fun: the candy
             puffs up dramatically and the texture changes completely. Not a practical food
             storage item, but a crowd-pleaser for kids and a way to experiment without

@@ -10,7 +10,7 @@ import { bestLink } from "@/lib/affiliate";
 export const metadata: Metadata = {
   title: "Best Home Freeze Dryers (2026): Every Harvest Right Model Compared",
   description:
-    "Compare every Harvest Right home freeze dryer — small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family.",
+    "Compare every Harvest Right home freeze dryer, small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family.",
   alternates: { canonical: "https://www.FreezeDryGuide.com/best-home-freeze-dryer" },
 };
 
@@ -23,12 +23,12 @@ const faqItems = [
   {
     question: "Does Harvest Right offer financing?",
     answer:
-      "Yes, Harvest Right offers financing options directly through their website. This makes the $2,695-$4,995 price range more accessible for many buyers. Check their current financing terms at harvestright.com — rates and terms change periodically.",
+      "Yes, Harvest Right offers financing options directly through their website. This makes the $2,695-$4,995 price range more accessible for many buyers. Check their current financing terms at harvestright.com, rates and terms change periodically.",
   },
   {
     question: "What is the real run time for a batch?",
     answer:
-      "Plan for 24-36 hours per batch, not the 8-12 hours the marketing materials suggest. High-moisture foods like fruits and full meals run longer. Low-moisture foods like herbs and crackers run shorter. The variance is real — experienced owners track their batches and adjust expectations based on food type.",
+      "Plan for 24-36 hours per batch, not the 8-12 hours the marketing materials suggest. High-moisture foods like fruits and full meals run longer. Low-moisture foods like herbs and crackers run shorter. The variance is real, experienced owners track their batches and adjust expectations based on food type.",
   },
   {
     question: "Do I need a 20-amp circuit for the small or medium?",
@@ -42,7 +42,7 @@ export default function BestHomeFreezeDryerPage() {
     <>
       <ArticleSchema
         title="Best Home Freeze Dryers (2026): Every Harvest Right Model Compared"
-        description="Compare every Harvest Right home freeze dryer — small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family."
+        description="Compare every Harvest Right home freeze dryer, small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family."
         url="https://www.FreezeDryGuide.com/best-home-freeze-dryer"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
@@ -81,15 +81,15 @@ export default function BestHomeFreezeDryerPage() {
           <p className="text-base text-muted-foreground leading-relaxed mb-4">
             Harvest Right effectively has a monopoly on home freeze dryers. No other manufacturer
             makes a comparable consumer product at this price range. That means the buying decision
-            isn&apos;t which brand to choose — it&apos;s which Harvest Right model.
+            isn&apos;t which brand to choose, it&apos;s which Harvest Right model.
           </p>
           <p className="text-base text-muted-foreground leading-relaxed mb-4">
             We break down the real differences between the small, medium, and large models.
             Batch size, power requirements, footprint, real run times (not the marketed ones), and
-            price — so you can pick the right unit for your family size and goals.
+            price, so you can pick the right unit for your family size and goals.
           </p>
           <p className="text-base text-muted-foreground leading-relaxed">
-            The short answer: most families should buy the medium. Here&apos;s why — and when the
+            The short answer: most families should buy the medium. Here&apos;s why, and when the
             small or large makes more sense.
           </p>
         </div>
@@ -282,7 +282,7 @@ export default function BestHomeFreezeDryerPage() {
               href="/freeze-dryer-vs-dehydrator"
               className="flex items-center gap-1 text-sm text-primary hover:underline"
             >
-              Freeze dryer vs dehydrator — which should you buy first?
+              Freeze dryer vs dehydrator, which should you buy first?
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>

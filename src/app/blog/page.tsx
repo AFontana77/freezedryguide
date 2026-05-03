@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 
 export const metadata: Metadata = {
-  title: "Blog — Freeze Dryer Guides, Owner Tips, and Food Preservation",
+  title: "Blog, Freeze Dryer Guides, Owner Tips, and Food Preservation",
   description:
     "Real numbers on freeze drying: run times, electricity costs, which foods to freeze dry, and owner experiences from the Harvest Right community.",
   alternates: { canonical: "https://www.FreezeDryGuide.com/blog" },
@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 const articles = [
   {
     slug: "freeze-dryer-what-i-wish-i-knew",
-    title: "I Bought a $3,000 Freeze Dryer — Here's What I Wish I Knew First",
+    title: "I Bought a $3,000 Freeze Dryer, Here's What I Wish I Knew First",
     description:
-      "Run times are 24-36 hours, not 8-12. Fatty foods are a problem. The pump oil needs changing. What owners learn the hard way — before you spend $3,000.",
+      "Run times are 24-36 hours, not 8-12. Fatty foods are a problem. The pump oil needs changing. What owners learn the hard way, before you spend $3,000.",
     category: "Owner Reviews",
     date: "April 17, 2026",
   },
@@ -32,7 +32,7 @@ const articles = [
     slug: "harvest-right-electricity-cost",
     title: "How Much Electricity Does a Harvest Right Use? Real Numbers from Owners",
     description:
-      "Small model: 30-40 kWh per batch. Medium: 35-50 kWh. What that adds up to per month — based on forum reports from actual owners.",
+      "Small model: 30-40 kWh per batch. Medium: 35-50 kWh. What that adds up to per month, based on forum reports from actual owners.",
     category: "Running Costs",
     date: "April 17, 2026",
   },
@@ -40,7 +40,7 @@ const articles = [
     slug: "best-foods-to-freeze-dry",
     title: "The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)",
     description:
-      "Fruits, vegetables, meats, full meals, dairy, eggs, herbs, and candy — plus five foods that will ruin a batch or produce poor results.",
+      "Fruits, vegetables, meats, full meals, dairy, eggs, herbs, and candy, plus five foods that will ruin a batch or produce poor results.",
     category: "Food Guides",
     date: "April 17, 2026",
   },
@@ -50,7 +50,7 @@ export default function BlogPage() {
   return (
     <>
       <ArticleSchema
-        title="Freeze Dry Guide Blog — Guides, Owner Tips, and Food Preservation"
+        title="Freeze Dry Guide Blog, Guides, Owner Tips, and Food Preservation"
         description="Real numbers on freeze drying: run times, electricity costs, which foods to freeze dry, and owner experiences."
         url="https://www.FreezeDryGuide.com/blog"
         datePublished="2026-04-17"

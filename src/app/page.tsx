@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArticleSchema } from "@/components/schema/json-ld";
 
 export const metadata: Metadata = {
-  title: "FreezeDryGuide.com — Harvest Right Reviews, Guides & Comparisons",
+  title: "FreezeDryGuide.com, Harvest Right Reviews, Guides & Comparisons",
   description:
     "The independent guide to home freeze drying. Compare every Harvest Right model, understand real electricity costs, and learn what to freeze dry first.",
   alternates: { canonical: "https://www.FreezeDryGuide.com" },
@@ -16,7 +16,7 @@ const categories = [
   {
     title: "Freeze Dryers",
     description:
-      "Small vs Medium vs Large — batch sizes, power requirements, and which is right for your family size.",
+      "Small vs Medium vs Large, batch sizes, power requirements, and which is right for your family size.",
     href: "/best-home-freeze-dryer",
     icon: Snowflake,
     badge: "Best Value",
@@ -32,7 +32,7 @@ const categories = [
   {
     title: "vs. Dehydrator",
     description:
-      "The full cost and shelf-life comparison — which you should buy first and why.",
+      "The full cost and shelf-life comparison, which you should buy first and why.",
     href: "/freeze-dryer-vs-dehydrator",
     icon: Scale,
     badge: "Most Asked",
@@ -49,7 +49,7 @@ const categories = [
 
 const featuredArticles = [
   {
-    title: "I Bought a $3,000 Freeze Dryer — Here's What I Wish I Knew First",
+    title: "I Bought a $3,000 Freeze Dryer, Here's What I Wish I Knew First",
     description:
       "Run times are 24-36 hours, not 8-12. Fatty foods are a problem. The pump oil needs changing. What owners learn the hard way.",
     href: "/blog/freeze-dryer-what-i-wish-i-knew",
@@ -72,7 +72,7 @@ const featuredArticles = [
   {
     title: "The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)",
     description:
-      "Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, candy — plus five foods that will ruin a batch.",
+      "Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, candy, plus five foods that will ruin a batch.",
     href: "/blog/best-foods-to-freeze-dry",
     category: "Food Guides",
   },
@@ -82,7 +82,7 @@ export default function HomePage() {
   return (
     <>
       <ArticleSchema
-        title="Freeze Dry Guide — Independent Reviews for Home Freeze Dryers"
+        title="Freeze Dry Guide, Independent Reviews for Home Freeze Dryers"
         description="Honest reviews, buying guides, and owner tutorials for home freeze dryers. We compare every Harvest Right model, cover accessories, and explain what the manufacturers don't tell you."
         url="https://www.FreezeDryGuide.com"
         datePublished="2026-04-17"
@@ -102,7 +102,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
               Run times. Electricity costs. Batch sizes. We cover what the
-              manufacturer marketing leaves out — so you know exactly what
+              manufacturer marketing leaves out, so you know exactly what
               you&apos;re buying.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -137,7 +137,7 @@ export default function HomePage() {
           </h2>
           <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
             Every review is based on real owner data, community research, and
-            honest numbers — not manufacturer talking points.
+            honest numbers, not manufacturer talking points.
           </p>
         </div>
 
@@ -250,7 +250,7 @@ export default function HomePage() {
                 Real Run Time Data
               </p>
               <p className="text-muted-foreground">
-                We publish actual batch run times reported by owners — not the
+                We publish actual batch run times reported by owners, not the
                 manufacturer&apos;s best-case estimates. Expect 24-36 hours,
                 not 8-12.
               </p>

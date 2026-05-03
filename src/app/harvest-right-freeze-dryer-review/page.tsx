@@ -5,11 +5,11 @@ import { freezeDryers } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 
 export const metadata: Metadata = {
-  title: "Harvest Right Freeze Dryer Review 2026 — All 3 Models Tested",
+  title: "Harvest Right Freeze Dryer Review 2026, All 3 Models Tested",
   description:
     "An honest Harvest Right freeze dryer review covering all three models. Real batch times, noise levels, oil change schedules, yield data by food type, and which model to buy for your family size.",
   openGraph: {
-    title: "Harvest Right Freeze Dryer Review 2026 — FreezeDryGuide",
+    title: "Harvest Right Freeze Dryer Review 2026, FreezeDryGuide",
     description: "Small vs Medium vs Large: real batch times, real noise levels, and real cost-per-pound analysis. Updated April 2026.",
     url: "https://www.FreezeDryGuide.com/harvest-right-freeze-dryer-review",
   },
@@ -23,19 +23,19 @@ const HR_LARGE_URL = "https://harvestright.com/large-freeze-dryer.html";
 const faqs = [
   {
     question: "How long does a Harvest Right freeze dryer actually take per batch?",
-    answer: "Plan for 24-36 hours per batch — not the 8-12 hours you see in Harvest Right's marketing. High-moisture foods like fruits, cooked meals, and dairy run toward 36 hours. Low-moisture items like herbs, crackers, and candy run 20-24 hours. The variance is real. Experienced owners track their batches and adjust the freeze time based on food type to avoid under-drying, which causes the food to not shelf-stabilize properly.",
+    answer: "Plan for 24-36 hours per batch, not the 8-12 hours you see in Harvest Right's marketing. High-moisture foods like fruits, cooked meals, and dairy run toward 36 hours. Low-moisture items like herbs, crackers, and candy run 20-24 hours. The variance is real. Experienced owners track their batches and adjust the freeze time based on food type to avoid under-drying, which causes the food to not shelf-stabilize properly.",
   },
   {
     question: "Does Harvest Right make noise?",
-    answer: "Yes — expect 60-70 dB during operation, similar to a running dishwasher or window AC unit. The pump runs continuously during the drying cycle. Most owners run it in a garage, utility room, or basement to keep noise out of living areas. The oil-free pump (standard now on most models) is quieter than the older oil pump models. If noise is a concern, plan your placement before the machine arrives.",
+    answer: "Yes, expect 60-70 dB during operation, similar to a running dishwasher or window AC unit. The pump runs continuously during the drying cycle. Most owners run it in a garage, utility room, or basement to keep noise out of living areas. The oil-free pump (standard now on most models) is quieter than the older oil pump models. If noise is a concern, plan your placement before the machine arrives.",
   },
   {
     question: "What is the Harvest Right warranty?",
-    answer: "Harvest Right offers a 1-year warranty on parts and labor. Extended service plans are available for purchase. The most common failure points community members report are: oil pump degradation (mostly on older models), chamber seal wear, and vacuum pump issues. Harvest Right's customer service has a good reputation in the community — most warranty claims are handled promptly. Budget for pump oil changes every 20-25 batches if you have an oil pump model.",
+    answer: "Harvest Right offers a 1-year warranty on parts and labor. Extended service plans are available for purchase. The most common failure points community members report are: oil pump degradation (mostly on older models), chamber seal wear, and vacuum pump issues. Harvest Right's customer service has a good reputation in the community, most warranty claims are handled promptly. Budget for pump oil changes every 20-25 batches if you have an oil pump model.",
   },
   {
-    question: "Oil pump vs oil-free pump — which should I get?",
-    answer: "Oil-free, if you have the choice. Harvest Right's oil-free pump runs quieter, requires no oil changes, and handles high-moisture batches better. Older machines shipped with oil pumps — these work fine but require maintenance (drain and replace oil every 20-25 batches). If you are buying new, verify you are getting the oil-free pump. If you are buying used, confirm which pump type the seller has and factor in the cost of oil if it is an oil pump model.",
+    question: "Oil pump vs oil-free pump, which should I get?",
+    answer: "Oil-free, if you have the choice. Harvest Right's oil-free pump runs quieter, requires no oil changes, and handles high-moisture batches better. Older machines shipped with oil pumps, these work fine but require maintenance (drain and replace oil every 20-25 batches). If you are buying new, verify you are getting the oil-free pump. If you are buying used, confirm which pump type the seller has and factor in the cost of oil if it is an oil pump model.",
   },
   {
     question: "How much does it cost to run a Harvest Right per batch?",
@@ -43,16 +43,16 @@ const faqs = [
   },
   {
     question: "Is Blue Alpine a real competitor to Harvest Right?",
-    answer: "Blue Alpine is the most credible challenger to emerge since Harvest Right's launch in 2012. Early community reviews are positive — quiet operation, comparable batch capacity, lower price point. The concern is longevity: Blue Alpine lacks 10+ years of real-world reliability data. If you are buying for long-term homestead food storage, the known quantity (Harvest Right) is the lower-risk choice. If you are comfortable with some early-adopter uncertainty and want to save $300-$500, Blue Alpine is worth researching.",
+    answer: "Blue Alpine is the most credible challenger to emerge since Harvest Right's launch in 2012. Early community reviews are positive, quiet operation, comparable batch capacity, lower price point. The concern is longevity: Blue Alpine lacks 10+ years of real-world reliability data. If you are buying for long-term homestead food storage, the known quantity (Harvest Right) is the lower-risk choice. If you are comfortable with some early-adopter uncertainty and want to save $300-$500, Blue Alpine is worth researching.",
   },
 ];
 
 const yieldData = [
-  { food: "Strawberries (1 lb fresh)", yield: "1.5-2 oz dried", time: "30-36 hrs", notes: "High moisture — long cycle" },
+  { food: "Strawberries (1 lb fresh)", yield: "1.5-2 oz dried", time: "30-36 hrs", notes: "High moisture, long cycle" },
   { food: "Chicken breast (1 lb cooked)", yield: "3.5-4 oz dried", time: "24-30 hrs", notes: "Shred before freeze drying for best results" },
-  { food: "Whole milk (1 quart)", yield: "4 oz powder", time: "28-34 hrs", notes: "Reconstitutes well — good for food storage" },
-  { food: "Cooked rice (1 lb)", yield: "5-6 oz dried", time: "20-24 hrs", notes: "Faster cycle — low moisture" },
-  { food: "Fresh herbs (1 lb)", yield: "1.5-2 oz dried", time: "18-22 hrs", notes: "Fastest cycle — preserves flavor well" },
+  { food: "Whole milk (1 quart)", yield: "4 oz powder", time: "28-34 hrs", notes: "Reconstitutes well, good for food storage" },
+  { food: "Cooked rice (1 lb)", yield: "5-6 oz dried", time: "20-24 hrs", notes: "Faster cycle, low moisture" },
+  { food: "Fresh herbs (1 lb)", yield: "1.5-2 oz dried", time: "18-22 hrs", notes: "Fastest cycle, preserves flavor well" },
   { food: "Greek yogurt (1 lb)", yield: "2.5-3 oz dried", time: "30-36 hrs", notes: "Makes excellent yogurt powder for smoothies" },
   { food: "Eggs (12 large, scrambled)", yield: "5-6 oz powder", time: "22-28 hrs", notes: "One of the best freeze-dried foods for storage" },
   { food: "Apple slices (1 lb)", yield: "1.5-2 oz dried", time: "26-32 hrs", notes: "Slice thin for best texture" },
@@ -66,7 +66,7 @@ export default function HarvestRightReviewPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       <ArticleSchema
-        title="Harvest Right Freeze Dryer Review 2026 — All 3 Models Tested"
+        title="Harvest Right Freeze Dryer Review 2026, All 3 Models Tested"
         description="An honest Harvest Right freeze dryer review covering all three models. Real batch times, noise levels, oil change schedules, yield data by food type, and which model to buy for your family size."
         url="https://www.FreezeDryGuide.com/harvest-right-freeze-dryer-review"
         datePublished="2026-04-18"
@@ -94,10 +94,10 @@ export default function HarvestRightReviewPage() {
           Harvest Right Freeze Dryer Review (2026)
         </h1>
         <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-          Harvest Right makes the only practical home freeze dryers on the market. Three models — small, medium, and large — cover family sizes from 1-2 people to large homesteads processing bulk harvests. This review covers what the marketing materials do not: real batch times, noise levels, maintenance schedules, cost-per-batch electricity math, and yield data by food type.
+          Harvest Right makes the only practical home freeze dryers on the market. Three models, small, medium, and large, cover family sizes from 1-2 people to large homesteads processing bulk harvests. This review covers what the marketing materials do not: real batch times, noise levels, maintenance schedules, cost-per-batch electricity math, and yield data by food type.
         </p>
         <p className="text-base text-muted-foreground leading-relaxed">
-          The short answer: buy the medium for most households. Read on for when the small or large makes more sense — and what to expect the first six months of ownership.
+          The short answer: buy the medium for most households. Read on for when the small or large makes more sense, and what to expect the first six months of ownership.
         </p>
         <p className="mt-4 text-xs text-muted-foreground">
           <strong>Affiliate disclosure:</strong> We earn a commission when you buy through our links at no extra cost to you.{" "}
@@ -109,7 +109,7 @@ export default function HarvestRightReviewPage() {
       <div className="mb-10 rounded-xl bg-primary/5 border border-primary/20 p-6">
         <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-2">Overall Verdict</p>
         <p className="text-foreground leading-relaxed mb-4">
-          Harvest Right freeze dryers are the real deal — expensive, noisy, and slow, but the only machine that genuinely preserves food at 25-year shelf life quality at a consumer price point. The learning curve is real. The maintenance is real. The results are also real: properly freeze-dried food retains 97% of its nutritional value and reconstitutes nearly identically to fresh.
+          Harvest Right freeze dryers are the real deal, expensive, noisy, and slow, but the only machine that genuinely preserves food at 25-year shelf life quality at a consumer price point. The learning curve is real. The maintenance is real. The results are also real: properly freeze-dried food retains 97% of its nutritional value and reconstitutes nearly identically to fresh.
         </p>
         <div className="grid grid-cols-3 gap-4 text-center">
           <div>
@@ -260,16 +260,16 @@ export default function HarvestRightReviewPage() {
           </div>
 
           <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
-            <h3 className="font-semibold text-slate-900 mb-2">It is loud — 60-70 dB during operation</h3>
+            <h3 className="font-semibold text-slate-900 mb-2">It is loud, 60-70 dB during operation</h3>
             <p className="text-sm text-slate-700 leading-relaxed">
-              The vacuum pump runs continuously throughout the drying cycle. Expect 60-70 dB — similar to a running dishwasher or window AC unit. Most owners run their freeze dryer in a garage, utility room, or basement specifically to keep this noise out of living spaces. Plan placement before the machine arrives. Moving a 112-lb medium after setup is not pleasant.
+              The vacuum pump runs continuously throughout the drying cycle. Expect 60-70 dB, similar to a running dishwasher or window AC unit. Most owners run their freeze dryer in a garage, utility room, or basement specifically to keep this noise out of living spaces. Plan placement before the machine arrives. Moving a 112-lb medium after setup is not pleasant.
             </p>
           </div>
 
           <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
             <h3 className="font-semibold text-slate-900 mb-2">Oil pump models need maintenance every 20-25 batches</h3>
             <p className="text-sm text-slate-700 leading-relaxed">
-              Older Harvest Right models ship with oil vacuum pumps. These require the pump oil to be drained and replaced every 20-25 batches — a 20-minute process, but one that adds a consumable cost ($15-20 per oil change) and a maintenance step many buyers are not expecting. New models ship with oil-free pumps, which are quieter and maintenance-free. If you are buying used, confirm which pump type the seller has.
+              Older Harvest Right models ship with oil vacuum pumps. These require the pump oil to be drained and replaced every 20-25 batches, a 20-minute process, but one that adds a consumable cost ($15-20 per oil change) and a maintenance step many buyers are not expecting. New models ship with oil-free pumps, which are quieter and maintenance-free. If you are buying used, confirm which pump type the seller has.
             </p>
           </div>
 
@@ -322,7 +322,7 @@ export default function HarvestRightReviewPage() {
               {[
                 "Homesteaders processing seasonal harvests",
                 "Families building 6-12 month food reserves",
-                "Preppers who want 25-year shelf life — not just dehydrated",
+                "Preppers who want 25-year shelf life, not just dehydrated",
                 "Anyone who grows their own food and hates waste",
                 "People with dietary restrictions who need to control ingredients",
                 "Hunters processing game meat for long-term storage",
@@ -338,10 +338,10 @@ export default function HarvestRightReviewPage() {
             <h3 className="font-semibold text-red-900 mb-3">Not a good fit</h3>
             <ul className="space-y-2">
               {[
-                "Apartment dwellers — noise and footprint are real issues",
+                "Apartment dwellers, noise and footprint are real issues",
                 "Anyone expecting a set-it-and-forget-it appliance",
                 "Buyers who won't commit to batch discipline (irregular use degrades seals)",
-                "People whose primary goal is saving money on food — the math rarely works out",
+                "People whose primary goal is saving money on food, the math rarely works out",
                 "Buyers wanting results faster than 24-36 hours per batch",
                 "Anyone put off by the idea of maintenance (oil changes, seal replacements)",
               ].map((item) => (
@@ -359,20 +359,20 @@ export default function HarvestRightReviewPage() {
       <section className="mb-12 rounded-xl bg-slate-900 p-6 text-center">
         <h2 className="font-heading text-xl font-bold text-white mb-2">Ready to buy?</h2>
         <p className="text-slate-400 text-sm leading-relaxed mb-5">
-          All three models ship direct from Harvest Right. Financing is available on their site — worth checking if you want to spread the cost.
+          All three models ship direct from Harvest Right. Financing is available on their site, worth checking if you want to spread the cost.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-3">
           <a href={HR_SMALL_URL} target="_blank" rel="nofollow noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white text-slate-900 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-slate-100 transition-colors">
-            Small — $2,695 &rarr;
+            Small, $2,695 &rarr;
           </a>
           <a href={HR_MEDIUM_URL} target="_blank" rel="nofollow noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-primary/90 transition-colors">
-            Medium — $3,495 (Best Value) &rarr;
+            Medium, $3,495 (Best Value) &rarr;
           </a>
           <a href={HR_LARGE_URL} target="_blank" rel="nofollow noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white text-slate-900 px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-slate-100 transition-colors">
-            Large — $4,995 &rarr;
+            Large, $4,995 &rarr;
           </a>
         </div>
       </section>

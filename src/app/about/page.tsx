@@ -40,7 +40,7 @@ export default function AboutPage() {
         <div className="space-y-6 text-base text-foreground leading-relaxed">
           <p className="text-muted-foreground">
             Freeze Dry Guide is an independent review and guide site for home freeze dryers.
-            We focus on one category — home freeze drying — and try to be the most useful
+            We focus on one category, home freeze drying, and try to be the most useful
             resource on the internet for people researching a Harvest Right or considering
             their first freeze dryer.
           </p>
@@ -51,7 +51,7 @@ export default function AboutPage() {
             We research products, review community forum data, analyze owner reports, and
             publish practical guides. We don&apos;t have a commercial relationship with
             Harvest Right or any other freeze dryer manufacturer. Our content is based on
-            what real owners report — not marketing materials.
+            what real owners report, not marketing materials.
           </p>
 
           <p className="text-muted-foreground">
@@ -105,7 +105,7 @@ export default function AboutPage() {
             <p className="text-sm text-muted-foreground">
               Have a question or found an error?{" "}
               <span className="text-foreground">
-                We&apos;re a small independent site — we aim to keep our content accurate
+                We&apos;re a small independent site, we aim to keep our content accurate
                 and up to date. If you spot a factual error or outdated price, we want to
                 know.
               </span>

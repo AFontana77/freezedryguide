@@ -21,7 +21,7 @@ const chivo = Chivo({
 
 export const metadata: Metadata = {
   title: {
-    default: "Freeze Dry Guide — Independent Reviews for Home Freeze Dryers",
+    default: "Freeze Dry Guide, Independent Reviews for Home Freeze Dryers",
     template: "%s | Freeze Dry Guide",
   },
   description:

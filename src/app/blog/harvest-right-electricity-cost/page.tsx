@@ -14,7 +14,7 @@ const faqItems = [
   {
     question: "How much does it cost to run a freeze dryer per batch?",
     answer:
-      "At the US average electricity rate of $0.12/kWh, a medium Harvest Right batch costs $4.20-6.00 per batch (35-50 kWh). A small batch costs $3.60-4.80. Your actual cost depends on your local rate — California owners pay roughly double, while owners in the South pay less.",
+      "At the US average electricity rate of $0.12/kWh, a medium Harvest Right batch costs $4.20-6.00 per batch (35-50 kWh). A small batch costs $3.60-4.80. Your actual cost depends on your local rate, California owners pay roughly double, while owners in the South pay less.",
   },
   {
     question: "How much does a freeze dryer add to the monthly electricity bill?",
@@ -92,7 +92,7 @@ export default function HarvestRightElectricityCostPage() {
           <p>
             Harvest Right publishes power consumption numbers, but they don&apos;t publish
             what a typical batch actually costs you. That requires knowing the kWh per batch
-            — which depends on run time — and your local electricity rate.
+           , which depends on run time, and your local electricity rate.
           </p>
 
           <p>
@@ -140,7 +140,7 @@ export default function HarvestRightElectricityCostPage() {
 
           <p>
             The $0.12/kWh rate is the US national average. If you&apos;re in California,
-            Hawaii, or New York, your rate is likely $0.20-0.35/kWh — and your costs are
+            Hawaii, or New York, your rate is likely $0.20-0.35/kWh, and your costs are
             proportionally higher. Find your local rate on your electricity bill and use
             the kWh column to calculate your actual cost.
           </p>
@@ -209,7 +209,7 @@ export default function HarvestRightElectricityCostPage() {
             You can reduce per-batch costs by pre-freezing food before loading, which reduces
             the freeze phase energy consumption. Running the machine during off-peak hours
             (where time-of-use rates apply) also helps. These aren&apos;t huge savings —
-            maybe 10-15% — but they add up over hundreds of batches.
+            maybe 10-15%, but they add up over hundreds of batches.
           </p>
 
           {/* FAQ */}

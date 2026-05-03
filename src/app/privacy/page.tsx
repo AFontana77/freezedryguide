@@ -25,7 +25,7 @@ export default function PrivacyPage() {
           <p className="text-muted-foreground">
             FreezeDryGuide.com does not collect personal information unless you voluntarily provide it
             (such as through a contact form or email signup). We use standard web analytics to understand
-            traffic patterns — this data is aggregated and does not identify individual visitors.
+            traffic patterns, this data is aggregated and does not identify individual visitors.
           </p>
         </section>
 

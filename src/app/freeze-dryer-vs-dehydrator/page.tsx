@@ -30,12 +30,12 @@ const faqItems = [
   {
     question: "Can you freeze dry in a regular freezer?",
     answer:
-      "No. Freeze drying requires two simultaneous processes: freezing AND a vacuum chamber to remove moisture via sublimation. A regular freezer only freezes — it doesn't create the vacuum needed to pull water out of food as vapor. A dedicated freeze dryer is the only home option.",
+      "No. Freeze drying requires two simultaneous processes: freezing AND a vacuum chamber to remove moisture via sublimation. A regular freezer only freezes, it doesn't create the vacuum needed to pull water out of food as vapor. A dedicated freeze dryer is the only home option.",
   },
   {
     question: "Is freeze-dried food better than dehydrated?",
     answer:
-      "Nutritionally yes. Freeze drying retains 97% of vitamins and minerals versus 40-60% for dehydrating. Texture-wise yes — freeze-dried food rehydrates much closer to original texture. Cost-wise no — freeze drying costs 10-100x more per batch when you factor in equipment and electricity. For snacks and short-term storage, dehydrating is often the better fit.",
+      "Nutritionally yes. Freeze drying retains 97% of vitamins and minerals versus 40-60% for dehydrating. Texture-wise yes, freeze-dried food rehydrates much closer to original texture. Cost-wise no, freeze drying costs 10-100x more per batch when you factor in equipment and electricity. For snacks and short-term storage, dehydrating is often the better fit.",
   },
   {
     question: "What's the best dehydrator to pair with freeze drying?",
@@ -45,7 +45,7 @@ const faqItems = [
   {
     question: "Can you dehydrate and freeze dry the same foods?",
     answer:
-      "Most foods can be processed either way, but some are better suited to one method. Jerky, trail mix, and fruit leather are ideal for dehydrating — the chewy texture is desirable. Full meals, dairy, eggs, and items you want to rehydrate back to original texture are better suited for freeze drying. Many serious homesteaders use both tools for different purposes.",
+      "Most foods can be processed either way, but some are better suited to one method. Jerky, trail mix, and fruit leather are ideal for dehydrating, the chewy texture is desirable. Full meals, dairy, eggs, and items you want to rehydrate back to original texture are better suited for freeze drying. Many serious homesteaders use both tools for different purposes.",
   },
   {
     question: "How long does it take to pay back a freeze dryer?",
@@ -91,14 +91,14 @@ export default function FreezeDryerVsDehydratorPage() {
           </p>
           <p className="text-base font-medium text-foreground leading-relaxed">
             Start with a dehydrator ($50-150), then add a freeze dryer ($2,695+) when
-            you&apos;ve committed to preservation as a lifestyle — not the other way around.
+            you&apos;ve committed to preservation as a lifestyle, not the other way around.
           </p>
         </div>
 
         <p className="text-base text-muted-foreground leading-relaxed mb-8">
           Most people who ask this question are new to food preservation. They&apos;ve seen
           the Harvest Right ads or read about 25-year shelf life and are excited about the
-          possibilities. That excitement is real — freeze drying is genuinely impressive
+          possibilities. That excitement is real, freeze drying is genuinely impressive
           technology. But a $3,000 machine is a serious commitment, and a $100 dehydrator
           is the right starting point to learn whether food preservation is going to be
           part of your life.
@@ -227,10 +227,10 @@ export default function FreezeDryerVsDehydratorPage() {
           <p className="text-sm font-semibold text-foreground mb-2">Recommended Dehydrators to Start With:</p>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>
-              <strong className="text-foreground">COSORI Pro II ($180)</strong> — Quietest dehydrator in its price range. Stainless steel trays. Good for most homesteaders.
+              <strong className="text-foreground">COSORI Pro II ($180)</strong>, Quietest dehydrator in its price range. Stainless steel trays. Good for most homesteaders.
             </li>
             <li>
-              <strong className="text-foreground">Excalibur 3926TB ($295)</strong> — The gold standard for serious dehydrators. Horizontal airflow, 15 sq ft of space, no tray rotation needed.
+              <strong className="text-foreground">Excalibur 3926TB ($295)</strong>, The gold standard for serious dehydrators. Horizontal airflow, 15 sq ft of space, no tray rotation needed.
             </li>
           </ul>
         </div>

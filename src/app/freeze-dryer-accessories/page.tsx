@@ -17,7 +17,7 @@ const faqItems = [
   {
     question: "What size oxygen absorbers for freeze-dried food?",
     answer:
-      "Use 300cc absorbers for 1-quart mylar bags and 2000cc absorbers for gallon bags. Matching absorber size to bag size is important — undersized absorbers won't remove enough oxygen for long-term storage.",
+      "Use 300cc absorbers for 1-quart mylar bags and 2000cc absorbers for gallon bags. Matching absorber size to bag size is important, undersized absorbers won't remove enough oxygen for long-term storage.",
   },
   {
     question: "How long does freeze-dried food last in mylar bags?",
@@ -74,7 +74,7 @@ export default function FreezeDryerAccessoriesPage() {
           </p>
           <p className="text-base text-muted-foreground leading-relaxed mb-4">
             Order your mylar bags and oxygen absorbers before your freeze dryer arrives.
-            You&apos;ll want them on hand for your first batch — don&apos;t let a $3,000 batch
+            You&apos;ll want them on hand for your first batch, don&apos;t let a $3,000 batch
             of food sit unsealed while you wait for shipping.
           </p>
           <p className="text-base text-muted-foreground leading-relaxed">

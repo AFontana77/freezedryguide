@@ -24,7 +24,7 @@ export default function TermsPage() {
           <h2 className="font-heading text-lg font-bold text-foreground mb-3">Use of This Site</h2>
           <p className="text-muted-foreground">
             FreezeDryGuide.com provides information for general educational purposes. Content on
-            this site — including product reviews, comparisons, and guides — reflects research
+            this site, including product reviews, comparisons, and guides, reflects research
             and community data available at the time of publication. Prices, specifications,
             and availability change frequently; always verify current information with the retailer
             before purchasing.
