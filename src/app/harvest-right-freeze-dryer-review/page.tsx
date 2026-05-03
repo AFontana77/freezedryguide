@@ -121,8 +121,8 @@ export default function HarvestRightReviewPage() {
             <p className="text-xs text-muted-foreground">Starting Price</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-foreground">3-10%</p>
-            <p className="text-xs text-muted-foreground">Commission (affiliate)</p>
+            <p className="text-2xl font-bold text-foreground">10+ Years</p>
+            <p className="text-xs text-muted-foreground">Expected machine life</p>
           </div>
         </div>
       </div>

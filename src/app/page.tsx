@@ -94,16 +94,14 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-3">
-              Independent Freeze Dryer Reviews
+              Real Owner Data · Electricity Costs · No Manufacturer Talking Points
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
               The Real Numbers on{" "}
               <span className="text-primary">Home Freeze Drying</span>
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Run times. Electricity costs. Batch sizes. We cover what the
-              manufacturer marketing leaves out, so you know exactly what
-              you&apos;re buying.
+              Run times. Electricity costs. Batch sizes. What the manufacturer marketing leaves out, built from real owner data so you know exactly what you are buying before you spend $2,695.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link href="/best-home-freeze-dryer">
@@ -125,6 +123,9 @@ export default function HomePage() {
                 </Button>
               </Link>
             </div>
+            <p className="mt-6 text-sm text-muted-foreground">
+              Owner-verified data · No sponsored rankings · Updated May 2026
+            </p>
           </div>
         </div>
       </section>
