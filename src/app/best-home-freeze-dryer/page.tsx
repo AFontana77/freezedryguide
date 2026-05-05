@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArticleSchema, FAQSchema, ItemListSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 import { freezeDryers } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "Best Home Freeze Dryers (2026): Every Harvest Right Model Compared",
@@ -288,6 +289,12 @@ export default function BestHomeFreezeDryerPage() {
           </div>
         </div>
       </div>
+      <StickyCTA
+        productName="Harvest Right Medium Home Freeze Dryer"
+        price="$3,495"
+        ctaUrl="https://harvestright.com/medium-freeze-dryer.html"
+        ctaLabel="Buy at Harvest Right"
+      />
     </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CheckCircle, XCircle, ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "Freeze Dryer vs Dehydrator: Which Should You Buy First?",
@@ -273,6 +274,12 @@ export default function FreezeDryerVsDehydratorPage() {
           </div>
         </div>
       </div>
+      <StickyCTA
+        productName="Harvest Right Medium Home Freeze Dryer"
+        price="$3,495"
+        ctaUrl="https://harvestright.com/medium-freeze-dryer.html"
+        ctaLabel="Buy at Harvest Right"
+      />
     </>
   );
 }

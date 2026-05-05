@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 import { freezeDryerAccessories } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "Best Freeze Dryer Accessories (2026): What to Buy Before Your First Batch",
@@ -210,6 +211,12 @@ export default function FreezeDryerAccessoriesPage() {
           </div>
         </div>
       </div>
+      <StickyCTA
+        productName="Harvest Right Mylar Bags (250-count)"
+        price="$45"
+        ctaUrl="https://www.amazon.com/dp/B07DGBRDVJ?tag=freezedryguide-20"
+        ctaLabel="Check Price on Amazon"
+      />
     </>
   );
 }
