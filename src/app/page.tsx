@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Snowflake, Wrench, Scale, BookOpen } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArticleSchema } from "@/components/schema/json-ld";
@@ -18,7 +18,6 @@ const categories = [
     description:
       "Small vs Medium vs Large, batch sizes, power requirements, and which is right for your family size.",
     href: "/best-home-freeze-dryer",
-    icon: Snowflake,
     badge: "Best Value",
   },
   {
@@ -26,7 +25,6 @@ const categories = [
     description:
       "What you need before your first batch: mylar bags, oxygen absorbers, and sealing tools.",
     href: "/freeze-dryer-accessories",
-    icon: Wrench,
     badge: null,
   },
   {
@@ -34,7 +32,6 @@ const categories = [
     description:
       "The full cost and shelf-life comparison, which you should buy first and why.",
     href: "/freeze-dryer-vs-dehydrator",
-    icon: Scale,
     badge: "Most Asked",
   },
   {
@@ -42,7 +39,6 @@ const categories = [
     description:
       "Which foods freeze dry best, which to avoid, and how to optimize batch runs.",
     href: "/blog",
-    icon: BookOpen,
     badge: "New Guides",
   },
 ];
@@ -132,48 +128,35 @@ export default function HomePage() {
 
       {/* Categories */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center mb-10">
-          <h2 className="font-heading text-3xl font-bold text-foreground">
-            What We Cover
-          </h2>
-          <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-            Every review is based on real owner data, community research, and
-            honest numbers, not manufacturer talking points.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {categories.map((cat) => {
-            const Icon = cat.icon;
-            return (
-              <Link key={cat.href} href={cat.href} className="group">
-                <Card className="h-full hover:shadow-md transition-all duration-200 hover:border-primary/30">
-                  <CardContent className="p-5">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                        <Icon className="w-5 h-5 text-primary" />
-                      </div>
-                      {cat.badge && (
-                        <span className="text-xs font-medium text-accent bg-accent/10 px-2 py-0.5 rounded-full">
-                          {cat.badge}
-                        </span>
-                      )}
-                    </div>
-                    <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
-                      {cat.title}
-                    </h3>
-                    <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                      {cat.description}
-                    </p>
-                    <p className="mt-3 text-sm font-medium text-primary flex items-center gap-1">
-                      Read More
-                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                    </p>
-                  </CardContent>
-                </Card>
-              </Link>
-            );
-          })}
+        <h2 className="font-heading text-3xl font-bold text-foreground">
+          Pick the Right Starting Point
+        </h2>
+        <p className="mt-2 text-muted-foreground mb-8 max-w-xl">
+          Every review is based on real owner data, community research, and
+          honest numbers, not manufacturer talking points.
+        </p>
+        <div className="divide-y divide-border border border-border rounded-xl overflow-hidden">
+          {categories.map((cat, i) => (
+            <Link key={cat.href} href={cat.href} className="group flex items-start gap-5 px-5 py-4 hover:bg-muted/40 transition-colors">
+              <span className="text-2xl font-bold text-muted-foreground/25 tabular-nums shrink-0 mt-0.5 w-7">{String(i + 1).padStart(2, "0")}</span>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 mb-1 flex-wrap">
+                  <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                    {cat.title}
+                  </h3>
+                  {cat.badge && (
+                    <span className="text-xs font-medium text-muted-foreground bg-muted px-2 py-0.5 rounded-full shrink-0">
+                      {cat.badge}
+                    </span>
+                  )}
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {cat.description}
+                </p>
+              </div>
+              <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 mt-1" />
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -231,51 +214,49 @@ export default function HomePage() {
 
       {/* Trust section */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-heading text-2xl font-bold text-foreground">
-            Why Trust Freeze Dry Guide?
-          </h2>
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
-            <div>
-              <p className="font-semibold text-foreground mb-1">
-                No Manufacturer Deals
-              </p>
-              <p className="text-muted-foreground">
-                Harvest Right has not paid for placement on this site. Our
-                reviews are based on community research, owner forums, and
-                product testing.
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-foreground mb-1">
-                Real Run Time Data
-              </p>
-              <p className="text-muted-foreground">
-                We publish actual batch run times reported by owners, not the
-                manufacturer&apos;s best-case estimates. Expect 24-36 hours,
-                not 8-12.
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-foreground mb-1">
-                Sister Site: HomesteadingGear.com
-              </p>
-              <p className="text-muted-foreground">
-                FreezeDryGuide is part of the HomesteadingGear family. See our
-                main site for chicken coops, pressure canners, solar generators,
-                and more.{" "}
-                <a
-                  href="https://www.homesteadinggear.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline"
-                >
-                  Visit HomesteadingGear.com
-                </a>
-              </p>
-            </div>
+        <h2 className="font-heading text-2xl font-bold text-foreground mb-8">
+          Three Promises on Every Freeze Dry Guide Review
+        </h2>
+        <dl className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm">
+          <div>
+            <dt className="font-semibold text-foreground mb-2">
+              No Manufacturer Deals
+            </dt>
+            <dd className="text-muted-foreground leading-relaxed">
+              Harvest Right has not paid for placement on this site. Our
+              reviews are based on community research, owner forums, and
+              product testing.
+            </dd>
           </div>
-        </div>
+          <div>
+            <dt className="font-semibold text-foreground mb-2">
+              Real Run Time Data
+            </dt>
+            <dd className="text-muted-foreground leading-relaxed">
+              We publish actual batch run times reported by owners, not the
+              manufacturer&apos;s best-case estimates. Expect 24-36 hours,
+              not 8-12.
+            </dd>
+          </div>
+          <div>
+            <dt className="font-semibold text-foreground mb-2">
+              Sister Site: HomesteadingGear.com
+            </dt>
+            <dd className="text-muted-foreground leading-relaxed">
+              FreezeDryGuide is part of the HomesteadingGear family. See our
+              main site for chicken coops, pressure canners, solar generators,
+              and more.{" "}
+              <a
+                href="https://www.homesteadinggear.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Visit HomesteadingGear.com
+              </a>
+            </dd>
+          </div>
+        </dl>
       </section>
 
       {/* Affiliate Disclosure */}
