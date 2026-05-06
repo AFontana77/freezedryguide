@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CheckCircle, XCircle, ArrowRight } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 import { StickyCTA } from "@/components/ui/sticky-cta";
+import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
 
 export const metadata: Metadata = {
   title: "Freeze Dryer vs Dehydrator: Which Should You Buy First?",
@@ -84,6 +85,16 @@ export default function FreezeDryerVsDehydratorPage() {
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight mb-6">
           Freeze Dryer vs Dehydrator: Which Should You Buy First?
         </h1>
+
+        <QuickVerdictBox
+          winnerName="Harvest Right Medium Home Freeze Dryer"
+          winnerCategory="Home Freeze Dryer"
+          dreamOutcomeChain="Freeze-dries a year of dinners into mason jars so your pantry replaces the chest freezer, so your kids eat real food during a 5-day power outage and you sleep through hurricane season."
+          proofPoint="450,000+ units sold. USA-made in Salt Lake City, UT. 10-year refrigeration warranty."
+          affiliateUrl="https://harvestright.com/medium-freeze-dryer.html"
+          ctaLabel="See price at Harvest Right"
+          riskReversal="Ships direct from Harvest Right. 30-day return policy."
+        />
 
         {/* The Answer Up Front */}
         <div className="bg-primary/5 border border-primary/20 rounded-xl p-5 mb-8">

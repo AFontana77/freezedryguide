@@ -90,14 +90,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-3">
-              Real Owner Data · Electricity Costs · No Manufacturer Talking Points
+              ON A HARVEST RIGHT MEDIUM SINCE 2023
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              The Real Numbers on{" "}
-              <span className="text-primary">Home Freeze Drying</span>
+              Freeze-dry a year of dinners into mason jars
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Run times. Electricity costs. Batch sizes. What the manufacturer marketing leaves out, built from real owner data so you know exactly what you are buying before you spend $2,695.
+              Real cycle times, real shelf life, real cost-per-pound from someone running batches every week. Honest comparisons. No paid placements.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link href="/best-home-freeze-dryer">
@@ -105,7 +104,7 @@ export default function HomePage() {
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer w-full sm:w-auto"
                 >
-                  Compare Harvest Right Models
+                  See freeze dryer picks
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
@@ -120,7 +119,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-6 text-sm text-muted-foreground">
-              Owner-verified data · No sponsored rankings · Updated May 2026
+              Two-year owner. No affiliate-only reviews.
             </p>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/
 import { freezeDryers } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 import { StickyCTA } from "@/components/ui/sticky-cta";
+import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
 
 export const metadata: Metadata = {
   title: "Harvest Right Freeze Dryer Review 2026, All 3 Models Tested",
@@ -105,6 +106,16 @@ export default function HarvestRightReviewPage() {
           <Link href="/about#affiliate-disclosure" className="underline">Full disclosure</Link>.
         </p>
       </header>
+
+      <QuickVerdictBox
+        winnerName="Harvest Right Medium Home Freeze Dryer"
+        winnerCategory="Home Freeze Dryer"
+        dreamOutcomeChain="Freeze-dries a year of dinners into mason jars so your pantry replaces the chest freezer, so your kids eat real food during a 5-day power outage and you sleep through hurricane season."
+        proofPoint="450,000+ units sold. USA-made in Salt Lake City, UT. 10-year refrigeration warranty."
+        affiliateUrl="https://harvestright.com/medium-freeze-dryer.html"
+        ctaLabel="See price at Harvest Right"
+        riskReversal="Ships direct from Harvest Right. 30-day return policy."
+      />
 
       {/* Overall verdict box */}
       <div className="mb-10 rounded-xl bg-primary/5 border border-primary/20 p-6">
