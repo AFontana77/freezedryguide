@@ -30,7 +30,7 @@ export const freezeDryers: Product[] = [
       "Not cost-effective for large families processing bulk harvests",
     ],
     verdict:
-      "The right choice if you're single, a couple, or new to freeze drying and want to test the process before committing to a larger unit. The smallest footprint also makes it the only model that fits on most countertops.",
+      "The right choice if you are single, a couple, or new to freeze drying and want to test the process before committing to a larger unit. The smallest footprint makes it the only model that fits on most countertops, so you build the skill before spending $3,500 on the medium, so the larger investment that follows is one you actually know how to use.",
     specs: {
       "Batch capacity": "7-10 lbs fresh food",
       "Trays": "4 stainless steel",
@@ -64,7 +64,7 @@ export const freezeDryers: Product[] = [
       "Still 110V but draws ~1,500W — check your outlet",
     ],
     verdict:
-      "The medium is the sweet spot for most families. It has enough capacity to build real food storage in a reasonable timeframe, the community knowledge base is deepest for this model, and the price-to-capacity ratio beats both the small and large.",
+      "The medium is the sweet spot for most families. It has enough capacity to build real food storage in a reasonable timeframe, the community knowledge base is deepest for this model, and the price-to-capacity ratio beats both the small and large, so your pantry holds 6 months of meals by end of year one, so your household is measurably more resilient than it was before.",
     specs: {
       "Batch capacity": "12-16 lbs fresh food",
       "Trays": "5 stainless steel",
@@ -98,7 +98,7 @@ export const freezeDryers: Product[] = [
       "135 lbs — not easily relocated once positioned",
     ],
     verdict:
-      "For large families, homesteaders processing bulk harvests, or serious preppers building substantial food reserves, the large is the only option. The per-pound preservation cost comes down with volume.",
+      "For large families, homesteaders processing bulk harvests, or serious preppers building substantial food reserves, the large is the only option. The per-pound preservation cost comes down with volume, so a full deer harvest or a 100-lb garden season becomes a full year of shelf-stable protein, so the freezer stays empty and the pantry fills with food that lasts a decade.",
     specs: {
       "Batch capacity": "16-20 lbs fresh food",
       "Trays": "6 stainless steel",
@@ -138,7 +138,7 @@ export const freezeDryerAccessories: Product[] = [
       "Slightly less flexible than thinner mylar (harder to fold)",
     ],
     verdict:
-      "Buy these before your freeze dryer arrives. The HR-branded bags are pre-sized and the right thickness — don't try to save money with thin mylar and have your storage fail in 3 years.",
+      "Buy these before your freeze dryer arrives. The HR-branded bags are pre-sized and the right thickness. Do not try to save money with thin mylar. A bag that fails in 3 years takes your food storage down with it, so the $3,495 machine you bought to protect your pantry cannot do its job.",
     specs: {
       "Thickness": "7 mil food-grade",
       "Count": "250",
@@ -202,7 +202,7 @@ export const freezeDryerAccessories: Product[] = [
       "Not for long-term mylar storage",
     ],
     verdict:
-      "A useful secondary tool for freeze-dried foods you're cycling through week-to-week. For items going into long-term mylar storage, you need a separate heat sealer.",
+      "A useful secondary tool for freeze-dried foods you are cycling through week-to-week. For items going into long-term mylar storage, you need a separate heat sealer instead.",
     specs: {
       "Bag types": "FoodSaver + compatible bags",
       "Mode": "Includes dry mode for freeze-dried",
