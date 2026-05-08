@@ -8,6 +8,7 @@ import { freezeDryers } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 import { StickyCTA } from "@/components/ui/sticky-cta";
 import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
+import { TopPickHighlight } from "@/components/effects/top-pick-highlight";
 
 export const metadata: Metadata = {
   title: "Best Home Freeze Dryers (2026): Every Harvest Right Model Compared",
@@ -111,6 +112,7 @@ export default function BestHomeFreezeDryerPage() {
           <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
             Model Comparison at a Glance
           </h2>
+          <TopPickHighlight hue={25} ariaLabel="Harvest Right freeze dryer model comparison — Medium is top pick">
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
@@ -157,6 +159,7 @@ export default function BestHomeFreezeDryerPage() {
               </tbody>
             </table>
           </div>
+          </TopPickHighlight>
         </div>
 
         {/* Product Cards */}
