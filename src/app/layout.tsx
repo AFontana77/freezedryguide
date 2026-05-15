@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   verification: {
     other: {
-      "impact-site-verification": "52aea2e1-38c8-4f75-adfc-fe65256488b4",
+      "impact-site-verification": "71669dd6-19ee-41ac-8086-e36f97e88ec8",
     },
   },
 };
