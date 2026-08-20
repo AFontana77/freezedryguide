@@ -62,24 +62,16 @@ export function ProductSchema({
   const schema = {
     "@context": "https://schema.org",
     "@type": "Product",
+    // Removed 2026-08-20: aggregateRating asserted a fabricated review count
+    // and offers asserted a hard-coded price plus InStock availability. The
+    // Associates Operating Agreement permits Amazon price/availability only
+    // via Creators API or an Amazon-served link, and forbids displaying
+    // Amazon customer ratings without Creators API sourcing. See WEBMON M1.4.
     name,
     description,
     image,
     url,
     brand: { "@type": "Brand", name: brand },
-    offers: {
-      "@type": "Offer",
-      price,
-      priceCurrency: "USD",
-      availability: "https://schema.org/InStock",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: rating,
-      bestRating: 5,
-      worstRating: 1,
-      ratingCount: 1,
-    },
   };
 
   return (
