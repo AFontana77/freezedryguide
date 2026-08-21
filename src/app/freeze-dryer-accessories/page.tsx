@@ -73,7 +73,6 @@ export default function FreezeDryerAccessoriesPage() {
           winnerCategory="Freeze Dryer Accessory"
           dreamOutcomeChain="Seal your freeze-dried food in 7-mil mylar with oxygen absorbers so the 25-year shelf life the machine promises actually happens, so the food you spent 35 hours drying feeds your family a decade from now."
           proofPoint="7-mil thickness rated for 25-year storage. Pre-cut for Harvest Right trays. Includes oxygen absorbers."
-          affiliateUrl="https://www.amazon.com/dp/B07DGBRDVJ?tag=freezedryguide-20"
           ctaLabel="Check Price on Amazon"
           riskReversal="30-day Amazon returns. Prime shipping."
         />

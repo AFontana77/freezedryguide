@@ -5,7 +5,7 @@ type QuickVerdictBoxProps = {
   winnerCategory: string;
   dreamOutcomeChain: string;
   proofPoint: string;
-  affiliateUrl: string;
+  affiliateUrl?: string;
   ctaLabel?: string;
   riskReversal?: string;
 };
@@ -30,14 +30,16 @@ export function QuickVerdictBox(props: QuickVerdictBoxProps) {
         <Check className="h-5 w-5 flex-shrink-0 text-primary" aria-hidden="true" />
         {props.proofPoint}
       </p>
-      <a
-        href={props.affiliateUrl}
-        rel="nofollow noopener noreferrer sponsored"
-        target="_blank"
-        className="inline-flex w-full items-center justify-center rounded-xl bg-primary px-6 py-4 text-base md:text-lg font-bold text-primary-foreground shadow-sm transition hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 min-h-[48px]"
-      >
-        {props.ctaLabel ?? "See today's price on Amazon"}
-      </a>
+      {props.affiliateUrl && (
+        <a
+          href={props.affiliateUrl}
+          rel="nofollow noopener noreferrer sponsored"
+          target="_blank"
+          className="inline-flex w-full items-center justify-center rounded-xl bg-primary px-6 py-4 text-base md:text-lg font-bold text-primary-foreground shadow-sm transition hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 min-h-[48px]"
+        >
+          {props.ctaLabel ?? "See today's price on Amazon"}
+        </a>
+      )}
       <p className="mt-3 text-center text-xs text-foreground/60">
         {props.riskReversal ?? "30-day Amazon returns. Prime shipping."}
       </p>
