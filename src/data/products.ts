@@ -153,7 +153,7 @@ export const freezeDryerAccessories: Product[] = [
     brand: "Wallaby",
     price: 15,
     rating: 4.6,
-    amazonAsin: "B09BPX4J47",
+    amazonAsin: "",
     directUrl: "",
     affiliateSource: "amazon",
     image: "/images/products/oxygen-absorbers-300cc.jpg",
