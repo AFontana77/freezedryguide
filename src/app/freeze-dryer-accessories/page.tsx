@@ -224,7 +224,6 @@ export default function FreezeDryerAccessoriesPage() {
       <StickyCTA
         productName="Harvest Right Mylar Bags (250-count)"
         price="$45"
-        ctaUrl="https://www.amazon.com/dp/B07DGBRDVJ?tag=freezedryguide-20"
         ctaLabel="Check Price on Amazon"
       />
     </>

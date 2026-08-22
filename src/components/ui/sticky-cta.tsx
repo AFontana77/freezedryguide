@@ -6,7 +6,7 @@ import { X, ExternalLink } from "lucide-react";
 interface StickyCTAProps {
   productName: string;
   price: string;
-  ctaUrl: string;
+  ctaUrl?: string;
   ctaLabel: string;
   scrollThreshold?: number;
 }
@@ -32,7 +32,7 @@ export function StickyCTA({
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isDismissed, scrollThreshold]);
 
-  if (!isVisible || isDismissed) return null;
+  if (!isVisible || isDismissed || !ctaUrl) return null;
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-card shadow-lg">
