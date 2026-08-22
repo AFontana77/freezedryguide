@@ -1,0 +1,58 @@
+{
+ "_note": "Amazon product image LINKS only. No image bytes are stored. Entries expire 24h after fetched_at per the Associates Operating Agreement; the render component falls back to a branded placeholder once stale.",
+ "fetched_at": "2026-08-22T08:13:30+00:00",
+ "ttl_hours": 24,
+ "partner_tag": "freezedryguide-20",
+ "items": {
+  "B07MR276VY": {
+   "title": "FoodSaver FM2000 Vacuum Sealer System with Starter Bag/Roll Set and 8\" & 11\" Vacuum Heat-Seal Rolls",
+   "primary": {
+    "url": "https://m.media-amazon.com/images/I/41du+oVGX5L._SL500_.jpg",
+    "width": 500,
+    "height": 500
+   },
+   "variants": [
+    {
+     "url": "https://m.media-amazon.com/images/I/31KUPxJKyWL._SL500_.jpg",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51Av77kJC4L._SL500_.jpg",
+     "width": 450,
+     "height": 450
+    }
+   ]
+  },
+  "B09BPX4J47": {
+   "title": "Wallaby 300cc Oxygen Absorbers - 100 Count (10x Packs of 10) with Indicator - for Long Term Food Storage, Mylar Bags, Canning, Harvest Right Freeze Dryer, Dehydrated, & Preserved Foods - FDA Food Safe",
+   "primary": {
+    "url": "https://m.media-amazon.com/images/I/51QX4NXyEjL._SL500_.jpg",
+    "width": 500,
+    "height": 497
+   },
+   "variants": [
+    {
+     "url": "https://m.media-amazon.com/images/I/51qGgBOP+VL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51xBWtpW1XL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51h2TLu5pnL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41SOrAN9cPL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    }
+   ]
+  }
+ }
+}

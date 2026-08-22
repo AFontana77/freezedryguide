@@ -1,3 +1,4 @@
+import { AmazonProductImage, asinOf } from '@/components/products/AmazonProductImage';
 import { Check } from "lucide-react";
 
 type QuickVerdictBoxProps = {
@@ -23,6 +24,15 @@ export function QuickVerdictBox(props: QuickVerdictBoxProps) {
       <h2 className="mb-4 text-2xl md:text-3xl font-bold leading-tight text-foreground">
         {props.winnerName}
       </h2>
+      {asinOf(props.affiliateUrl) ? (
+        <div className="mb-6 flex h-40 items-center justify-center rounded-xl bg-background/60">
+          <AmazonProductImage
+            asin={asinOf(props.affiliateUrl)}
+            productName={props.winnerName}
+            className="p-2"
+          />
+        </div>
+      ) : null}
       <p className="mb-6 text-base md:text-lg leading-relaxed text-foreground/90">
         {props.dreamOutcomeChain}
       </p>
