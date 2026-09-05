@@ -1,6 +1,6 @@
 {
  "_note": "Amazon product image LINKS only. No image bytes are stored. Entries expire 24h after fetched_at per the Associates Operating Agreement; the render component falls back to a branded placeholder once stale.",
- "fetched_at": "2026-09-04T21:17:25+00:00",
+ "fetched_at": "2026-09-05T09:17:24+00:00",
  "ttl_hours": 24,
  "partner_tag": "freezedryguide-20",
  "items": {
@@ -25,7 +25,7 @@
    ]
   },
   "B09BPX4J47": {
-   "title": "Wallaby 300cc Oxygen Absorbers - 100 Count (10x Packs of 10) with Indicator - for Long Term Food Storage, Mylar Bags, Canning, Harvest Right Freeze Dryer, Dehydrated, & Preserved Foods - FDA Food Safe",
+   "title": "Wallaby Oxygen Absorbers for Food Storage, Max Absorbing Food Grade Packets",
    "primary": {
     "url": "https://m.media-amazon.com/images/I/51QX4NXyEjL._SL500_.jpg",
     "width": 500,
