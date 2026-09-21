@@ -112,7 +112,8 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-xs text-muted-foreground">
+          <p className="mt-2">As an Amazon Associate we earn from qualifying purchases.</p>
+        <p className="text-xs text-muted-foreground">
             &copy; {currentYear} Freeze Dry Guide. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground text-center sm:text-right max-w-md">
