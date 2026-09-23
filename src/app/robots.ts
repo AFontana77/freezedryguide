@@ -32,6 +32,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.FreezeDryGuide.com/sitemap.xml",
+    sitemap: "https://www.freezedryguide.com/sitemap.xml",
   };
 }

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "I Bought a $3,000 Freeze Dryer, Here's What I Wish I Knew First",
   description:
     "Run times are 24-36 hours, not 8-12. Fatty foods are a problem. Pump oil needs changing. What first-year owners wish someone had told them.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew" },
+  alternates: { canonical: "https://www.freezedryguide.com/blog/freeze-dryer-what-i-wish-i-knew" },
 };
 
 const faqItems = [
@@ -34,16 +34,16 @@ export default function FreezeDryerWishIKnewPage() {
       <ArticleSchema
         title="I Bought a $3,000 Freeze Dryer, Here's What I Wish I Knew First"
         description="Run times are 24-36 hours, not 8-12. Fatty foods are a problem. Pump oil needs changing. What first-year owners wish someone had told them."
-        url="https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew"
+        url="https://www.freezedryguide.com/blog/freeze-dryer-what-i-wish-i-knew"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
-          { name: "What I Wish I Knew", url: "https://www.FreezeDryGuide.com/blog/freeze-dryer-what-i-wish-i-knew" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Blog", url: "https://www.freezedryguide.com/blog" },
+          { name: "What I Wish I Knew", url: "https://www.freezedryguide.com/blog/freeze-dryer-what-i-wish-i-knew" },
         ]}
       />
 

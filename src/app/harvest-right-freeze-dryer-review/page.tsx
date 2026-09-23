@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Harvest Right Freeze Dryer Review 2026, FreezeDryGuide",
     description: "Small vs Medium vs Large: real batch times, real noise levels, and real cost-per-pound analysis. Updated April 2026.",
-    url: "https://www.FreezeDryGuide.com/harvest-right-freeze-dryer-review",
+    url: "https://www.freezedryguide.com/harvest-right-freeze-dryer-review",
   },
-  alternates: { canonical: "https://www.FreezeDryGuide.com/harvest-right-freeze-dryer-review" },
+  alternates: { canonical: "https://www.freezedryguide.com/harvest-right-freeze-dryer-review" },
 };
 
 const HR_SMALL_URL = "https://harvestright.com/small-freeze-dryer.html";
@@ -70,15 +70,15 @@ export default function HarvestRightReviewPage() {
       <ArticleSchema
         title="Harvest Right Freeze Dryer Review 2026, All 3 Models Tested"
         description="An honest Harvest Right freeze dryer review covering all three models. Real batch times, noise levels, oil change schedules, yield data by food type, and which model to buy for your family size."
-        url="https://www.FreezeDryGuide.com/harvest-right-freeze-dryer-review"
+        url="https://www.freezedryguide.com/harvest-right-freeze-dryer-review"
         datePublished="2026-04-18"
         dateModified="2026-04-18"
       />
       <FAQSchema questions={faqs.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Harvest Right Review", url: "https://www.FreezeDryGuide.com/harvest-right-freeze-dryer-review" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Harvest Right Review", url: "https://www.freezedryguide.com/harvest-right-freeze-dryer-review" },
         ]}
       />
 

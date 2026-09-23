@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Best Home Freeze Dryers (2026): Every Harvest Right Model Compared",
   description:
     "Compare every Harvest Right home freeze dryer, small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/best-home-freeze-dryer" },
+  alternates: { canonical: "https://www.freezedryguide.com/best-home-freeze-dryer" },
 };
 
 const faqItems = [
@@ -46,7 +46,7 @@ export default function BestHomeFreezeDryerPage() {
       <ArticleSchema
         title="Best Home Freeze Dryers (2026): Every Harvest Right Model Compared"
         description="Compare every Harvest Right home freeze dryer, small, medium, and large. Batch sizes, power requirements, real run times, and which model fits your family."
-        url="https://www.FreezeDryGuide.com/best-home-freeze-dryer"
+        url="https://www.freezedryguide.com/best-home-freeze-dryer"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
@@ -55,14 +55,14 @@ export default function BestHomeFreezeDryerPage() {
         name="Best Home Freeze Dryers 2026"
         items={freezeDryers.map((p, i) => ({
           name: p.name,
-          url: `https://www.FreezeDryGuide.com/best-home-freeze-dryer#${p.slug}`,
+          url: `https://www.freezedryguide.com/best-home-freeze-dryer#${p.slug}`,
           position: i + 1,
         }))}
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Best Home Freeze Dryers", url: "https://www.FreezeDryGuide.com/best-home-freeze-dryer" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Best Home Freeze Dryers", url: "https://www.freezedryguide.com/best-home-freeze-dryer" },
         ]}
       />
 

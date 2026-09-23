@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   description:
     "Honest reviews, buying guides, and owner tutorials for home freeze dryers. We compare every Harvest Right model, cover accessories, and explain what the manufacturers don't tell you.",
-  metadataBase: new URL("https://www.FreezeDryGuide.com"),
+  metadataBase: new URL("https://www.freezedryguide.com"),
   openGraph: {
     type: "website",
     locale: "en_US",

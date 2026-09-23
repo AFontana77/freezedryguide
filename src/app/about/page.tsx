@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About Freeze Dry Guide",
   description:
     "Freeze Dry Guide is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/about" },
+  alternates: { canonical: "https://www.freezedryguide.com/about" },
 };
 
 export default function AboutPage() {
@@ -15,14 +15,14 @@ export default function AboutPage() {
       <ArticleSchema
         title="About Freeze Dry Guide"
         description="Freeze Dry Guide is an independent review site for home freeze dryers. Part of the HomesteadingGear family of sites."
-        url="https://www.FreezeDryGuide.com/about"
+        url="https://www.freezedryguide.com/about"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "About", url: "https://www.FreezeDryGuide.com/about" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "About", url: "https://www.freezedryguide.com/about" },
         ]}
       />
 

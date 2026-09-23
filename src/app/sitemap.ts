@@ -1,6 +1,10 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://www.FreezeDryGuide.com";
+// Host lowercased 2026-09-23: the sitemap emitted a mixed-case host while every
+// page canonical is lowercase, so each sitemap URL disagreed with the canonical
+// it pointed at. Hosts are case-insensitive, so nothing 404d and nothing looked
+// broken; it just gave crawlers two spellings of every URL.
+const BASE_URL = "https://www.freezedryguide.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date().toISOString().split("T")[0];

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "FreezeDryGuide.com, Harvest Right Reviews, Guides & Comparisons",
   description:
     "The independent guide to home freeze drying. Compare every Harvest Right model, understand real electricity costs, and learn what to freeze dry first.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com" },
+  alternates: { canonical: "https://www.freezedryguide.com" },
 };
 
 const categories = [
@@ -80,7 +80,7 @@ export default function HomePage() {
       <ArticleSchema
         title="Freeze Dry Guide, Independent Reviews for Home Freeze Dryers"
         description="Honest reviews, buying guides, and owner tutorials for home freeze dryers. We compare every Harvest Right model, cover accessories, and explain what the manufacturers don't tell you."
-        url="https://www.FreezeDryGuide.com"
+        url="https://www.freezedryguide.com"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />

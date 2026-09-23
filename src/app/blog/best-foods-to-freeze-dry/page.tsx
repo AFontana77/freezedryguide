@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)",
   description:
     "Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy, plus five foods that ruin a batch. A practical guide for new freeze dryer owners.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/best-foods-to-freeze-dry" },
+  alternates: { canonical: "https://www.freezedryguide.com/blog/best-foods-to-freeze-dry" },
 };
 
 const bestFoods = [
@@ -66,16 +66,16 @@ export default function BestFoodsToFreezeDryPage() {
       <ArticleSchema
         title="The 30 Best Foods to Freeze Dry (And 5 You Should Never Try)"
         description="Fruits, vegetables, cooked meats, full meals, dairy, eggs, herbs, and candy, plus five foods that ruin a batch. A practical guide for new freeze dryer owners."
-        url="https://www.FreezeDryGuide.com/blog/best-foods-to-freeze-dry"
+        url="https://www.freezedryguide.com/blog/best-foods-to-freeze-dry"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
-          { name: "Best Foods to Freeze Dry", url: "https://www.FreezeDryGuide.com/blog/best-foods-to-freeze-dry" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Blog", url: "https://www.freezedryguide.com/blog" },
+          { name: "Best Foods to Freeze Dry", url: "https://www.freezedryguide.com/blog/best-foods-to-freeze-dry" },
         ]}
       />
 

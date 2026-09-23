@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Best Freeze Dryer Accessories (2026): What to Buy Before Your First Batch",
   description:
     "The freeze dryer is just the machine. You need mylar bags, oxygen absorbers, and sealing tools before your first batch. Here's exactly what to buy.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/freeze-dryer-accessories" },
+  alternates: { canonical: "https://www.freezedryguide.com/freeze-dryer-accessories" },
 };
 
 const faqItems = [
@@ -44,15 +44,15 @@ export default function FreezeDryerAccessoriesPage() {
       <ArticleSchema
         title="Best Freeze Dryer Accessories (2026): What to Buy Before Your First Batch"
         description="The freeze dryer is just the machine. You need mylar bags, oxygen absorbers, and sealing tools before your first batch. Here's exactly what to buy."
-        url="https://www.FreezeDryGuide.com/freeze-dryer-accessories"
+        url="https://www.freezedryguide.com/freeze-dryer-accessories"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Freeze Dryer Accessories", url: "https://www.FreezeDryGuide.com/freeze-dryer-accessories" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Freeze Dryer Accessories", url: "https://www.freezedryguide.com/freeze-dryer-accessories" },
         ]}
       />
 

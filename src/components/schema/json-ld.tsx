@@ -21,16 +21,16 @@ export function ArticleSchema({
     url,
     datePublished,
     dateModified,
-    image: image || "https://www.FreezeDryGuide.com/og-image.jpg",
+    image: image || "https://www.freezedryguide.com/og-image.jpg",
     author: {
       "@type": "Organization",
       name: "Freeze Dry Guide",
-      url: "https://www.FreezeDryGuide.com",
+      url: "https://www.freezedryguide.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Freeze Dry Guide",
-      url: "https://www.FreezeDryGuide.com",
+      url: "https://www.freezedryguide.com",
     },
   };
 
@@ -164,8 +164,8 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Freeze Dry Guide",
-    url: "https://www.FreezeDryGuide.com",
-    logo: "https://www.FreezeDryGuide.com/logo.png",
+    url: "https://www.freezedryguide.com",
+    logo: "https://www.freezedryguide.com/logo.png",
     description:
       "Independent reviews and guides for home freeze drying. We cover every Harvest Right model, accessories, and what the manufacturers don't tell you.",
     sameAs: [],
@@ -184,7 +184,7 @@ export function WebSiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Freeze Dry Guide",
-    url: "https://www.FreezeDryGuide.com",
+    url: "https://www.freezedryguide.com",
     description:
       "Independent reviews and guides for home freeze drying.",
   };

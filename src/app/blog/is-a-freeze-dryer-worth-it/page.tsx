@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Is a Home Freeze Dryer Actually Worth It? The Math for 4 Family Sizes",
   description:
     "Break-even analysis for one person, couples, families of 4, and 6+. Real cost per freeze-dried serving versus buying commercial. When the numbers work.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/blog/is-a-freeze-dryer-worth-it" },
+  alternates: { canonical: "https://www.freezedryguide.com/blog/is-a-freeze-dryer-worth-it" },
 };
 
 const faqItems = [
@@ -34,16 +34,16 @@ export default function IsFreezeDryerWorthItPage() {
       <ArticleSchema
         title="Is a Home Freeze Dryer Actually Worth It? The Math for 4 Family Sizes"
         description="Break-even analysis for one person, couples, families of 4, and 6+. Real cost per freeze-dried serving versus buying commercial. When the numbers work."
-        url="https://www.FreezeDryGuide.com/blog/is-a-freeze-dryer-worth-it"
+        url="https://www.freezedryguide.com/blog/is-a-freeze-dryer-worth-it"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <FAQSchema questions={faqItems.map((f) => ({ question: f.question, answer: f.answer }))} />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
-          { name: "Is a Freeze Dryer Worth It?", url: "https://www.FreezeDryGuide.com/blog/is-a-freeze-dryer-worth-it" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Blog", url: "https://www.freezedryguide.com/blog" },
+          { name: "Is a Freeze Dryer Worth It?", url: "https://www.freezedryguide.com/blog/is-a-freeze-dryer-worth-it" },
         ]}
       />
 

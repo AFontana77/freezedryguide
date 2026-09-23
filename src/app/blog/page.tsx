@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Blog, Freeze Dryer Guides, Owner Tips, and Food Preservation",
   description:
     "Real numbers on freeze drying: run times, electricity costs, which foods to freeze dry, and owner experiences from the Harvest Right community.",
-  alternates: { canonical: "https://www.FreezeDryGuide.com/blog" },
+  alternates: { canonical: "https://www.freezedryguide.com/blog" },
 };
 
 const articles = [
@@ -52,14 +52,14 @@ export default function BlogPage() {
       <ArticleSchema
         title="Freeze Dry Guide Blog, Guides, Owner Tips, and Food Preservation"
         description="Real numbers on freeze drying: run times, electricity costs, which foods to freeze dry, and owner experiences."
-        url="https://www.FreezeDryGuide.com/blog"
+        url="https://www.freezedryguide.com/blog"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.FreezeDryGuide.com" },
-          { name: "Blog", url: "https://www.FreezeDryGuide.com/blog" },
+          { name: "Home", url: "https://www.freezedryguide.com" },
+          { name: "Blog", url: "https://www.freezedryguide.com/blog" },
         ]}
       />
 
