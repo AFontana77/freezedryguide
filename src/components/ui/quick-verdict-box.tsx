@@ -50,9 +50,11 @@ export function QuickVerdictBox(props: QuickVerdictBoxProps) {
           {props.ctaLabel ?? "See today's price on Amazon"}
         </a>
       )}
-      <p className="mt-3 text-center text-xs text-foreground/60">
-        {props.riskReversal ?? "30-day Amazon returns. Prime shipping."}
-      </p>
+      {props.riskReversal ? (
+        <p className="mt-3 text-center text-xs text-foreground/60">
+          {props.riskReversal}
+        </p>
+      ) : null}
     </aside>
   );
 }
